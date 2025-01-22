@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rainbow-text {
+  background: linear-gradient(
+    to right,
+    rgb(181, 89, 89),
+    rgb(220, 146, 7),
+    rgb(186, 186, 9),
+    rgb(68, 193, 68),
+    rgb(70, 70, 191),
+    indigo,
+    rgb(221, 114, 221)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}

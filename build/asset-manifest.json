@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23ec52e4.css",
+    "main.js": "/static/js/main.6f19a624.js",
+    "static/media/imageDeepak-removebg.png": "/static/media/imageDeepak-removebg.08e112b1454dc12b5e1d.png",
+    "static/media/todoSS.png": "/static/media/todoSS.a1386f7a7c3d81c893dd.png",
+    "static/media/chatappSS.png": "/static/media/chatappSS.a09a53f1793f3cc17396.png",
+    "index.html": "/index.html",
+    "main.23ec52e4.css.map": "/static/css/main.23ec52e4.css.map",
+    "main.6f19a624.js.map": "/static/js/main.6f19a624.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ec52e4.css",
+    "static/js/main.6f19a624.js"
+  ]
+}
