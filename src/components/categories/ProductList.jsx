@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 import "../../../src/index.css"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBeerMugEmpty, faBottleWater, faBox, faMugHot, faMugSaucer,  } from "@fortawesome/free-solid-svg-icons";
+import Categories from "./Categories";
 
 
 const ProductList = () => {
@@ -14,22 +14,26 @@ const ProductList = () => {
   
     return (
       <div className="min-h-screen  p-6">
-        <div className="flex flex-col border-b-2 pb-10 items-center sm:flex-row sm:justify-center sm:items-center relative top-14 gap-5 px-4 text-center">
-            <span className="hidden sm:block text-white flex-grow">
-                __________________
+        <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center relative  gap-5 px-4 text-center">
+            <span className="hidden sm:block text-gray-700 flex-grow sm:pb-7">
+                _____________________________
             </span>
 
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-700 mb-8">
-                Tailor Your Dreams – Customize Your Perfect Product Today!
+            <h1 className="text-2xl sm:text-2xl lg:text-5xl font-bold text-gray-700 mb-8">
+                Shop All Categoires
             </h1>
-            <span className="hidden sm:block text-white flex-grow">
-                ______________________
+            <span className="hidden sm:block text-gray-700 flex-grow sm:pb-7">
+                _______________________________
             </span>
         </div>
+        <div className=" pb-3 border-b-2">
+          <Categories />
+        </div>
 
+        <div className="">
         {categories.map((category, index) => (
-          <div className="mb-12 mt-24" key={index}>
-            <h2 className="text-5xl w-full text-center font-semibold text-gray-700 mb-6">
+          <div className=" mt-8" key={index}>
+            <h2 className="text-4xl w-full text-center font-semibold text-gray-700 mb-6">
                 <FontAwesomeIcon className="px-3 " icon={category.icon} />
               {category?.categoryName}
             </h2>
@@ -43,6 +47,7 @@ const ProductList = () => {
             </div>
           </div>
         ))}
+        </div>
       </div>
     );
   };

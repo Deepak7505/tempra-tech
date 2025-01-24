@@ -1,25 +1,25 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faPhone, faUserGroup } from "@fortawesome/free-solid-svg-icons";
-
+import logo from  "../assets/TEMPRA_LOGO.png";
+import CategorieDropdown from "./CategorieDropdown";
 const Header = () => {
   return (
     <header className="bg-white border-b-2 border-blue-100 text-black py-4 px-6">
       <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between">
         {/* Top Section: Logo, Categories */}
-        <div className="flex items-center justify-between w-full md:w-auto gap-4">
+        <div className="flex items-center justify-between w-full md:w-auto gap-10">
           {/* Logo */}
           <div className="text-xl font-bold">
-            <a href="/" className="text-red-600">
-              Tempra Technology
-            </a>
+              <a href="/">
+              <img className="h-6 w-auto" src={logo} alt="Tempra Logo" />
+              </a>
           </div>
 
           {/* Category Button */}
-          <button className="text-gray-600 text-lg p-2 flex items-center gap-2 hover:bg-gray-100 rounded-md">
-            <FontAwesomeIcon icon={faBars} />
-            <span>Categories</span>
-          </button>
+            <div className="text-gray-600 text-lg flex items-center gap-2 cursor-pointer">
+              <CategorieDropdown />
+            </div>
         </div>
 
         {/* Search Bar */}

@@ -1,4 +1,4 @@
-import { faBeerMugEmpty, faBottleWater, faBox, faMugHot, faMugSaucer,  } from "@fortawesome/free-solid-svg-icons";
+import { faBeerMugEmpty, faBottleWater, faBox, faShirt, faMouse, faPaperclip, faWeightHanging, faPen } from "@fortawesome/free-solid-svg-icons";
 
 export const categories = [ 
     {
@@ -45,7 +45,8 @@ export const categories = [
                 discountedPrize: 190,
                 rating:4
             }
-        ]
+        ],
+        img:'https://img.freepik.com/premium-photo/metallic-water-bottle-grey-background_994418-8642.jpg',
     } ,
     {
         categoryName: "Lunch Box",
@@ -91,7 +92,8 @@ export const categories = [
                 discountedPrize: 190,
                 rating:4
             }
-        ]
+        ],
+        img:'https://img.freepik.com/premium-photo/workplace-with-lunch-box-gray-textured-table_185193-49182.jpg',
     } ,
     {
         categoryName: "Mugs",
@@ -137,6 +139,242 @@ export const categories = [
                 discountedPrize: 190,
                 rating:4
             }
-        ]
+        ],
+        img:'https://img.freepik.com/premium-photo/white-mug-mockup-grey-background_921026-10574.jpg',
+    },
+    {
+        categoryName: "Clothes",
+        icon:faShirt,
+        prodcutList : [
+            {
+                prodId: '00401',
+                prodName: "Clothes 1",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://i.etsystatic.com/25501657/r/il/498e7e/3099794773/il_fullxfull.3099794773_422q.jpg",
+                allProductImages: [{img:'https://i.etsystatic.com/25501657/r/il/498e7e/3099794773/il_fullxfull.3099794773_422q.jpg'}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00402',
+                prodName: "Clothes 2",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://i.etsystatic.com/25501657/r/il/498e7e/3099794773/il_fullxfull.3099794773_422q.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00403',
+                prodName: "Clothes 3",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://i.etsystatic.com/25501657/r/il/498e7e/3099794773/il_fullxfull.3099794773_422q.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00404',
+                prodName: "Clothes 4",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://i.etsystatic.com/25501657/r/il/498e7e/3099794773/il_fullxfull.3099794773_422q.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            }
+        ],
+        img:'https://i.etsystatic.com/25501657/r/il/498e7e/3099794773/il_fullxfull.3099794773_422q.jpg',
+    },
+    {
+        categoryName: "Mouse Pad",
+        icon:faMouse,
+        prodcutList : [
+            {
+                prodId: '00501',
+                prodName: "Mouse Pad 1",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://http2.mlstatic.com/mouse-pad-mouse-D_NQ_NP_764572-MLM31215392938_062019-F.jpg",
+                allProductImages: [{img:'https://http2.mlstatic.com/mouse-pad-mouse-D_NQ_NP_764572-MLM31215392938_062019-F.jpg'}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00502',
+                prodName: "Mouse Pad 2",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://http2.mlstatic.com/mouse-pad-mouse-D_NQ_NP_764572-MLM31215392938_062019-F.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00503',
+                prodName: "Mouse Pad 3",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://http2.mlstatic.com/mouse-pad-mouse-D_NQ_NP_764572-MLM31215392938_062019-F.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00504',
+                prodName: "Mouse Pad 4",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://http2.mlstatic.com/mouse-pad-mouse-D_NQ_NP_764572-MLM31215392938_062019-F.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            }
+        ],
+        img:'https://img.freepik.com/premium-photo/computer-mouse-gray-background-3d-rendering_921026-11378.jpg',
+    },
+    {
+        categoryName: "Paper clip board",
+        icon:faPaperclip,
+        prodcutList : [
+            {
+                prodId: '00601',
+                prodName: "Paper clip board 1",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
+                allProductImages: [{img:'https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg'}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00602',
+                prodName: "Paper clip board 2",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00603',
+                prodName: "Paper clip board 3",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00604',
+                prodName: "Paper clip board 4",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            }
+        ],
+        img:'https://img.freepik.com/premium-photo/wooden-clipboard-with-blank-a4-paper-mockup-template-isolated-light-grey-background_942243-3386.jpg',
+    },
+    {
+        categoryName: "Paper weight",
+        icon:faWeightHanging,
+        prodcutList : [
+            {
+                prodId: '00701',
+                prodName: "Paper weight 1",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://media.rainpos.com/10238/NN_GLASSLRND.jpg",
+                allProductImages: [{img:'https://media.rainpos.com/10238/NN_GLASSLRND.jpg'}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00702',
+                prodName: "Paper weight 2",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://media.rainpos.com/10238/NN_GLASSLRND.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00703',
+                prodName: "Paper weight 3",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://media.rainpos.com/10238/NN_GLASSLRND.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00704',
+                prodName: "Paper weight 4",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://media.rainpos.com/10238/NN_GLASSLRND.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            }
+        ],
+        img:'https://img.freepik.com/premium-photo/paper-weight-white-background_996135-23710.jpg',
+    },
+    {
+        categoryName: "Pen",
+        icon:faPen,
+        prodcutList : [
+            {
+                prodId: '00801',
+                prodName: "Pen 1",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg",
+                allProductImages: [{img:'https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg'}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00802',
+                prodName: "Pen 2",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00803',
+                prodName: "Pen 3",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            },
+            {
+                prodId: '00804',
+                prodName: "Pen 4",
+                prodDetails: "description of this product here i will write",
+                cardImage:"https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg",
+                allProductImages: [{img:''}],
+                price:234,
+                discountedPrize: 190,
+                rating:4
+            }
+        ],
+        img:'https://image.freepik.com/free-psd/black-metal-pen-grey-mockup-template-your-design_34168-1302.jpg',
     }
 ];
