@@ -34,13 +34,13 @@ const Header = () => {
         {/* Right Section: About Us, Contact Us */}
         <div className="flex items-center justify-between w-full md:w-auto mt-4 md:mt-0 gap-6">
           {/* Contact Us */}
-          <span className="text-gray-600 text-lg flex items-center gap-2 cursor-pointer ">
+          <span className="text-gray-600 text-lg flex items-center gap-2 cursor-pointer  hover:scale-105 hover:text-gray-900  ">
             <FontAwesomeIcon icon={faPhone} />
             <span>Contact Us</span>
           </span>
 
           {/* About Us */}
-          <span className="text-gray-600 text-lg flex items-center gap-2 cursor-pointer ">
+          <span className="text-gray-600 text-lg flex items-center gap-2 cursor-pointer  hover:scale-105 hover:text-gray-900 ">
             <FontAwesomeIcon icon={faUserGroup} />
             <span>About Us</span>
           </span>

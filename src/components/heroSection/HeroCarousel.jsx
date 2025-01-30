@@ -31,7 +31,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className=" flex justify-center md:mt-4 ">
+    <div className=" flex bg-gray-50 justify-center md:pt-4 ">
       <div className="relative w-full md:w-[90vw]">
         {/* Image Section */}
       <div className="relative h-[400px] md:h-[500px]  overflow-hidden">

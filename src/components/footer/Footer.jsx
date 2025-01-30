@@ -74,8 +74,8 @@ const Footer = () => {
           <div>
 
            <div className="">
-            <h1 className=" py-2 font-bold text-5xl text-white">T E M P R A</h1>
-            <h6 className=" py-1 text-sm font-semibold ml-32">TEMPRA TECHNOLOGY INDUSTRIES </h6> 
+            {/* <h1 className=" py-2 font-bold text-5xl text-white">TEMPRA TECHNOLOGY INDUSTRIES</h1> */}
+            <h6 className=" py-1 text-2xl font-semibold ">TEMPRA TECHNOLOGY INDUSTRIES </h6> 
            </div>
             
             <div className="flex justify-center sm:justify-start sm:pl-1 space-x-4 mt-6">

@@ -1,44 +1,46 @@
 import React, { useState, useEffect } from "react";
 import { categorieDropdown_data } from "./constant";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars} from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const CategorieDropdown = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-  const [showSubcategories, setShowSubcategories] = useState(false);
-  const [subcategoriesData, setSubcategoriesData] = useState(null);
-
-  const handleCategoryClick = (subCategoryDataArray) => {
-    setShowSubcategories(true);
-    setSubcategoriesData(subCategoryDataArray);
-  };
-
-  const handleBackClick = () => {
-    setShowSubcategories(false);
-    setSubcategoriesData(null);
-  };
+  const [activeCategory, setActiveCategory] = useState(null);
+  const [timeoutId, setTimeoutId] = useState(null);
 
   const handleToggleDropdown = (event) => {
     event.stopPropagation(); // Prevent the dropdown from closing when toggling
     setShowDropdown((prev) => !prev);
   };
 
-  const handleClickOutside = () => {
-    setShowDropdown(false); // Close the dropdown if clicked outside
-    setShowSubcategories(false);
-    setSubcategoriesData(null);
+  const handleMouseEnter = (subCategories) => {
+    setActiveCategory(subCategories);
+  };
+
+  const handleMouseLeave = () => {
+    const id = setTimeout(() => {
+      setShowDropdown(false);
+      setActiveCategory(null);
+    }, 200); // Delayed close
+    setTimeoutId(id);
+  };
+
+  const handleMouseEnterDropdown = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId); // Cancel the close timeout
+      setTimeoutId(null);
+    }
   };
 
   useEffect(() => {
     const handleDocumentClick = () => {
-      handleClickOutside();
+      setShowDropdown(false); // Close the dropdown if clicked outside
+      setActiveCategory(null);
     };
 
-    // Add global click listener
     document.addEventListener("click", handleDocumentClick);
 
     return () => {
-      // Clean up the event listener on unmount
       document.removeEventListener("click", handleDocumentClick);
     };
   }, []);
@@ -50,52 +52,59 @@ const CategorieDropdown = () => {
     >
       {/* Toggle Button */}
       <button
-        onClick={handleToggleDropdown}
-        className="flex items-center"
+        onMouseEnter={handleToggleDropdown}
+        className="flex items-center hover:scale-105 hover:text-gray-900"
       >
-      <FontAwesomeIcon className="pr-2" icon={faBars} />
+        <FontAwesomeIcon className="pr-2" icon={faBars} />
         Categories
       </button>
 
       {/* Dropdown */}
       {showDropdown && (
-        <div className="absolute top-12 right-3 md:left-[-2rem] bg-white shadow-md rounded p-4 w-48 z-40">
-          {showSubcategories && subcategoriesData ? (
-            <>
-              <button
-                onClick={handleBackClick}
-                className="text-sm font-bold text-gray-700 hover:text-gray-900 mb-2"
-              >
-              {'<'} Back
-              </button>
+        <div
+          className="absolute top-12 left-0 shadow-lg flex w-[50rem] z-40"
+          onMouseEnter={handleMouseEnterDropdown} // Prevent immediate closing
+          onMouseLeave={handleMouseLeave} // Delayed close
+        >
+          {/* Categories List */}
+          <div className="w-1/2 bg-gray-200 p-4 text-white rounded-l-lg border-gray-300">
+            <ul className="w-full grid grid-cols-2 gap-x-6 gap-y-4">
+              {categorieDropdown_data.map((val, ind) => (
+                <React.Fragment key={ind}>
+                  <li
+                    onMouseEnter={() => handleMouseEnter(val.subCategories)}
+                    className="py-4 px-4 space-x-4 flex w-full text-nowrap text-sm font-semibold justify-between items-center text-gray-700 hover:text-gray-900 hover:scale-105 transition-transform cursor-pointer"
+                  >
+                    {val.categoryName}
+                  </li>
+                </React.Fragment>
+              ))}
+            </ul>
+          </div>
+
+          {/* Subcategories List */}
+          <div className="w-1/2 rounded-r-lg bg-gray-100 p-4">
+            {activeCategory && activeCategory.length > 0 ? (
               <ul>
-                {subcategoriesData.map((val, ind) => (
+                {activeCategory.map((sub, ind) => (
                   <li
                     key={ind}
-                    className="py-2 text-sm px-4 text-gray-700 border-b-2 border-gray-600 hover:text-gray-950 transition cursor-pointer"
+                    className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-gray-700 hover:text-gray-900 hover:underline hover:scale-105 transition-transform cursor-pointer"
                   >
-                    {val.subcategoriName}
+                    {sub.subcategoriName}
                   </li>
                 ))}
               </ul>
-            </>
-          ) : (
-            <div className="w-full bg-white">
-                <h1 className="font-bold text-gray-700 text-xl">All categories
-                </h1>
-                <ul>
-              {categorieDropdown_data.map((val, ind) => (
+            ) : (
+              <ul>
                 <li
-                  key={ind}
-                  onClick={() => handleCategoryClick(val?.subCategories)}
-                  className="py-2 px-4 text-sm border-b-2 border-gray-600 text-gray-700 hover:text-gray-950 transition cursor-pointer"
+                  className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-black hover:text-black hover:scale-105 transition-transform cursor-pointer"
                 >
-                  {val.categoryName}
+                  {categorieDropdown_data[0]?.subCategories[0]?.subcategoriName}
                 </li>
-              ))}
-            </ul>
-            </div>
-          )}
+              </ul>
+            )}
+          </div>
         </div>
       )}
     </div>

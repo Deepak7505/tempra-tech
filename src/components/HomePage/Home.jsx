@@ -6,21 +6,21 @@ import ProductList from '../categories/ProductList'
 import Footer from '../footer/Footer'
 import ImageZoom from '../sendQuerys/ImageZoom'
 import ProductPage from '../sendQuerys/ProductPage'
+import Testimonial from './Testimonial'
+import TestimonialsCarousel from './TestimonialsCarousel'
+import CustomerCounter from './CustomerCounter'
+import StatsSection from './StatsSection'
+import AvailablePlatforms from './AvailablePlatforms'
 
 const Home = () => {
 
 
   return (
     <div>
-        <LimitedOfferHeader />
-        <Header />
         <HeroCarousel />
         <ProductList />
-        <Footer /> 
-        <div>
-        <h1 className='font-semibold text-xl text-center my-3'>@ Kundan Bhaiya please give your suggetion </h1>
-        <ProductPage />
-        </div>
+        <Testimonial />
+        <AvailablePlatforms />
     </div>
   )
 }

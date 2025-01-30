@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { categories } from "./constant"; 
+import { Link } from "react-router-dom";
 
-const Categories = () => {
+const Categories = ({scrollDown}) => {
+
     const [isMobileScreen, setIsMobileScreen] = useState(window.innerWidth <= 768); 
     const handleResize = () => {
       setIsMobileScreen(window.innerWidth <= 768);
@@ -25,6 +27,7 @@ const Categories = () => {
                key={index}
                className="flex flex-col items-center text-center group cursor-pointer"
              >
+            <Link to={`/categories/${category.id}`} className="group">
                {/* Category Image */}
                <div className="w-24 h-24 sm:w-36 sm:h-36 rounded-full bg-gray-100 overflow-hidden ">
                  <img
@@ -37,6 +40,7 @@ const Categories = () => {
                <h3 className="text-sm font-semibold text-gray-800 group-hover:text-black">
                  {category.categoryName}
                </h3>
+            </Link>
              </div>
            ))}
          </div>
@@ -48,18 +52,20 @@ const Categories = () => {
             key={index}
             className="flex flex-col items-center text-center group cursor-pointer"
           >
-            {/* Category Image */}
-            <div className="w-24 h-24 sm:w-36 sm:h-36 rounded-full bg-gray-100 overflow-hidden shadow-md mb-3">
-              <img
-                src={category.img}
-                alt={category.categoryName}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-              />
-            </div>
-            {/* Category Name */}
-            <h3 className="text-sm font-semibold text-gray-800 group-hover:text-black">
-              {category.categoryName}
-            </h3>
+            <Link to={`/categories/${category.id}`} className="group">
+                {/* Category Image */}
+                <div className="w-24 h-24 sm:w-36 sm:h-36 rounded-full bg-gray-100 overflow-hidden shadow-md mb-3">
+                  <img
+                    src={category.img}
+                    alt={category.categoryName}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                {/* Category Name */}
+                <h3 className="text-sm font-semibold text-gray-800 group-hover:text-black">
+                  {category.categoryName}
+                </h3>
+            </Link>
           </div>
         ))}
       </div>
@@ -71,6 +77,7 @@ const Categories = () => {
             key={index}
             className="flex flex-col items-center text-center group"
           >
+          <Link to={`/categories/${category.id}`} className="group">
             {/* Category Image */}
             <div className="w-24 h-24 sm:w-36 sm:h-36 rounded-full bg-gray-200 overflow-hidden shadow-md mb-3">
               <img
@@ -83,10 +90,11 @@ const Categories = () => {
             <h3 className="text-sm font-semibold text-gray-800 group-hover:text-black">
               {category.categoryName}
             </h3>
+            </Link>
           </div>
         ))}
       </div>
-          </div>
+      </div>
         )}
 
     </div>
