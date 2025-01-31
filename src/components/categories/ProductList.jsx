@@ -5,6 +5,7 @@ import "../../../src/index.css"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Categories from "./Categories";
+import { Link } from "react-router-dom";
 
 
 const ProductList = () => {
@@ -40,9 +41,11 @@ const ProductList = () => {
 
             <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               {category.prodcutList.map((prod) => (
-                <div key={prod.prodId} onClick={() => handleCardClick(prod.prodId)}>
+                <Link key={prod.prodId} to={`/product/${prod?.prodId}`}>
+                <div>
                   <ProductCard product={prod} />
                 </div>
+                </Link>
               ))}
             </div>
           </div>

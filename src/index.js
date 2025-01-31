@@ -9,6 +9,7 @@ import LimitedOfferHeader from "./components/headers/LimitedOfferHeader";
 import TemporaryError from "./components/ErrorElements/TemporaryError";
 import Categories from "./components/categories/Categories";
 import SubCategories from "./components/subcategory/SubCategories";
+import ProductPage from "./components/sendQuerys/ProductPage";
 
 
 const App = () => {
@@ -39,10 +40,16 @@ const appRouter = createBrowserRouter([
             {
                 path:"categories/:categoryId",
                 element:<SubCategories />,
+            },
+            {
+                path:"/product/:prodId",
+                element:<ProductPage />,
+                errorElement:<TemporaryError />
             }
         ]
 
-    }
+    },
+    
 ]);
 
 

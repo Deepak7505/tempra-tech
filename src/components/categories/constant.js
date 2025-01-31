@@ -3,7 +3,7 @@ import { faBeerMugEmpty, faBottleWater, faBox, faShirt, faMouse, faPaperclip, fa
 export const categories = [ 
     {
         categoryName: "Bottles",
-        id:"bottle",
+        id:"bottles",
         icon:faBottleWater,
         prodcutList : [
             {
@@ -51,7 +51,7 @@ export const categories = [
     } ,
     {
         categoryName: "Lunch Box",
-        id:"lunch-box",
+        id:"lunchBox",
         icon: faBox,
         prodcutList : [
             {
@@ -195,7 +195,7 @@ export const categories = [
     },
     {
         categoryName: "Mouse Pad",
-        id:"mouse-pad",
+        id:"mousePad",
         icon:faMouse,
         prodcutList : [
             {
@@ -243,7 +243,7 @@ export const categories = [
     },
     {
         categoryName: "Paper clip board",
-        id:"paper-clip-board",
+        id:"paperClipBoard",
         icon:faPaperclip,
         prodcutList : [
             {
@@ -291,7 +291,7 @@ export const categories = [
     },
     {
         categoryName: "Paper weight",
-        id:"paper-weight",
+        id:"paperWeight",
         icon:faWeightHanging,
         prodcutList : [
             {

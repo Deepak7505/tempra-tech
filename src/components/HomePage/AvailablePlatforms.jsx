@@ -15,8 +15,8 @@ const AvailablePlatforms = () => {
         <h2 className="text-3xl font-extrabold text-gray-700 mb-6">Also Available On</h2>
         <div className="mt-8 flex flex-wrap justify-center gap-8">
           {platforms.map((platform) => (
-            <a key={platform.name} href={platform.url} target="_blank" rel="noopener noreferrer" className="block bg-white p-4 rounded-lg shadow-md hover:shadow-xl transition">
-              <img src={platform.image} alt={platform.name} className="h-16 w-52 mx-auto" />
+            <a key={platform.name} href={platform.url} target="_blank" rel="noopener noreferrer" className="block bg-white p-4 rounded-lg  hover:shadow-xl transition">
+              <img src={platform.image} alt={platform.name} className="h-10 w-44 mx-auto" />
             </a>
           ))}
         </div>

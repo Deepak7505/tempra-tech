@@ -6,7 +6,7 @@ import CategorieDropdown from "./CategorieDropdown";
 const Header = () => {
   return (
     <header className="bg-white border-b-2 border-blue-100 text-black py-4 px-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Top Section: Logo, Categories */}
         <div className="flex items-center justify-between w-full md:w-auto gap-10">
           {/* Logo */}
@@ -32,7 +32,7 @@ const Header = () => {
         </div>
 
         {/* Right Section: About Us, Contact Us */}
-        <div className="flex items-center justify-between w-full md:w-auto mt-4 md:mt-0 gap-6">
+        <div className="flex items-center justify-between w-full md:w-auto mt-4 md:mt-0  gap-6">
           {/* Contact Us */}
           <span className="text-gray-600 text-lg flex items-center gap-2 cursor-pointer  hover:scale-105 hover:text-gray-900  ">
             <FontAwesomeIcon icon={faPhone} />
