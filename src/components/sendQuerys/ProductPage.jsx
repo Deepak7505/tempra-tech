@@ -86,11 +86,11 @@ const ProductPage = () => {
             <AnimatedStepper />
           </div>
 
-          {/* <section className='flex flex-col'>
+          <section className='flex flex-col'>
             <span className=' text-2xl text-gray-600 font-semibold'>How To Order</span>
             <button onClick={() => setIsPopupOpen(true)} className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-all">Show Steps</button>
           </section>
-          {isPopupOpen && <Popup onClose={() => setIsPopupOpen(false)} />} */}
+          {isPopupOpen && <Popup onClose={() => setIsPopupOpen(false)} />}
         </div>
       </div>
 
