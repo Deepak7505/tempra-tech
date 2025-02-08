@@ -62,7 +62,7 @@ const CategorieDropdown = () => {
       {/* Dropdown */}
       {showDropdown && (
         <div
-          className="absolute top-12 left-0 shadow-lg flex w-[50rem] z-40"
+          className="absolute top-12 left-0 shadow-lg flex w-max z-40"
           onMouseEnter={handleMouseEnterDropdown} // Prevent immediate closing
           onMouseLeave={handleMouseLeave} // Delayed close
         >
@@ -83,7 +83,7 @@ const CategorieDropdown = () => {
           </div>
 
           {/* Subcategories List */}
-          <div className="w-1/2 rounded-r-lg bg-gray-900 p-4">
+          <div className="w-48 rounded-r-lg bg-gray-900 p-4">
             {activeCategory && activeCategory.length > 0 ? (
               <ul>
                 {activeCategory.map((sub, ind) => (
