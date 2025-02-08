@@ -67,8 +67,8 @@ const CategorieDropdown = () => {
           onMouseLeave={handleMouseLeave} // Delayed close
         >
           {/* Categories List */}
-          <div className="w-full bg-black p-4 text-white rounded-l-lg border-gray-300">
-            <ul className="w-full grid grid-cols-1 gap-x-10 gap-y-4">
+          <div className="w-max bg-black p-4 text-white rounded-l-lg border-gray-300">
+            <ul className="w-[16rem] grid grid-cols-1 gap-x-10 gap-y-4">
               {categorieDropdown_data.map((val, ind) => (
                 <React.Fragment key={ind}>
                   <li
@@ -76,7 +76,7 @@ const CategorieDropdown = () => {
                     className="py-4 px-4 space-x-4 flex w-full text-nowrap text-sm font-semibold justify-between items-center text-slate-50 hover:text-white hover:underline hover:scale-105 transition-transform cursor-pointer"
                   >
                     {val.categoryName}
-                    <FontAwesomeIcon icon={faGreaterThan} />
+                    {/* <FontAwesomeIcon icon={faGreaterThan} /> */}
                   </li>
                 </React.Fragment>
               ))}
@@ -84,7 +84,7 @@ const CategorieDropdown = () => {
           </div>
 
           {/* Subcategories List */}
-          <div className="w-96 rounded-r-lg bg-gray-900 p-4">
+          <div className="w-[18rem] rounded-r-lg bg-gray-900 p-4">
             {activeCategory && activeCategory.length > 0 ? (
               <ul>
                 {activeCategory.map((sub, ind) => (
