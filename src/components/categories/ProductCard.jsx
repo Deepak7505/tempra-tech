@@ -5,8 +5,8 @@ const ProductCard = ({ product }) => {
   const { cardImage, prodName, price, discountedPrize, rating, prodDetails } = product;
 
   return (
-    <div className="max-w-xs bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform border border-gray-200 mx-auto">
-      {/* Image Section */}
+    <div className="max-w-xs bg-white rounded-lg  overflow-hidden hover:scale-105 transition-transform mx-auto">
+      {/* Image Section  border border-gray-200 shadow-lg */}
       <div className="relative h-48">
         <img
           src={cardImage}

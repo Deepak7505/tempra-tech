@@ -4,6 +4,7 @@ import { FaArrowLeft, FaWhatsapp } from "react-icons/fa";
 import Popup from './Popup';
 import { useParams } from 'react-router-dom';
 import AnimatedStepper from './AnimatedStepper';
+import RotatingDisclaimer from './RotatingDisclaimer';
 
 const ProductPage = () => {
   const [selectedImage, setSelectedImage] = useState('https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/11/Tshirt-design.jpg?auto=format&q=60&w=2060&h=1158.75&fit=crop&crop=faces');
@@ -25,18 +26,31 @@ const ProductPage = () => {
     { id: 4, src: 'https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg' },
   ];
 
-  const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
+  const sizes = ["S", "M", "L", "XL"];
+  const colors = [
+    { name: "Red", code: "#D20404" },
+    { name: "Blue", code: "#142C73" },
+    { name: "Green", code: "#198754" },
+    { name: "Black", code: "#000000" },
+  ];
+  const [selectedColor, setSelectedColor] = useState(null);
 
   return (
-    <div className="p-6 bg-gray-50">
-      <button
-        onClick={() => window.history.back()}
-        className="flex items-center text-black border border-gray-400 px-4 py-2 rounded-lg hover:bg-gray-100 transition-all mb-4"
-      >
-        <FaArrowLeft className="mr-2" /> Back
-      </button>
+    <div className="p-2  bg-gray-50">
+      
+      <div className='flex sm:flex-row flex-col w-full bg-white'>
+        <button
+          onClick={() => window.history.back()}
+          className="flex items-center text-black border border-gray-400 px-4 py-2 rounded-lg hover:bg-gray-100 transition-all mb-4"
+        >
+          <FaArrowLeft className="mr-2" /> Back
+        </button>
+        <div className='flex w-3/4 justify-center md:pl-40 '>
+          <RotatingDisclaimer />
+        </div>
+      </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 ">
         <div className="flex space-x-4">
           <div className="flex flex-col space-y-2">
             {images.map((image) => (
@@ -52,28 +66,72 @@ const ProductPage = () => {
           <ImageZoom src={selectedImage} alt="Product Image" className="rounded-lg shadow-lg" />
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-6 gap-6 p-6  bg-white">
           <h2 className="text-3xl font-bold">Product Title</h2>
-          <div className="space-y-2">
-            <span className="text-gray-600 font-semibold">Select Size:</span>
-            <div className="flex space-x-2">
-              {sizes.map((size) => (
-                <button
-                  key={size}
-                  onClick={() => setSelectedSize(size)}
-                  className={`px-4 py-2 border rounded-md transition-all ${selectedSize === size ? 'border-blue-500 bg-blue-100' : 'border-gray-300'}`}
-                >
-                  {size}
-                </button>
-              ))}
+          
+
+
+          <div className="grid grid-cols-2 gap-6 p-6 border rounded-xl shadow-sm bg-white">
+            {/* Size Selection Box cursor-not-allowed opacity-30 */}
+            <div className="p-4 border rounded-lg shadow-sm ">
+              <h2 className="text-gray-700 font-bold mb-2">Select Size</h2>
+              <div className="flex space-x-6">
+                {sizes.map((size) => (
+                  <button
+                    key={size}
+                    onClick={() => setSelectedSize(size)}
+                    className={`px-4 py-2 border rounded-md transition-all ${
+                      selectedSize === size
+                        ? "border-blue-500 bg-blue-100"
+                        : "border-gray-300 hover:border-blue-400"
+                    }`}
+                  >
+                    {size}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Color Selection Box */}
+            <div className="p-4 border rounded-lg shadow-sm ">
+              <h2 className="text-gray-700 font-bold mb-2">Select Color</h2>
+              <div className="flex space-x-6">
+                {colors.map((color) => (
+                  <button
+                    key={color.name}
+                    onClick={() => setSelectedColor(color.name)}
+                    style={{ backgroundColor: color.code }}
+                    className={`w-10 h-10 rounded-full border-2 transition-all ${
+                      selectedColor === color.name
+                        ? "border-blue-500 scale-110"
+                        : "border-gray-300 hover:border-gray-500"
+                    }`}
+                  />
+                ))}
+              </div>
             </div>
           </div>
 
-          <div className=' flex w-full flex-col space-y-3'>
-          <span className='text-gray-600 font-semibold'>Inquiry On WhatsApp:</span>
+
+
+          <div className=' flex w-full flex-col'>
+          <span className='text-gray-700 font-bold'>How To Order:</span>
+            <div>
+              <ul className="list-decimal space-y-2 pl-6 text-gray-600 text-justify font-semibold">
+                <li>Choose the product & click on whatsapp inquiry button</li>
+                <li>Clear you all query related to rates, delvivry etc.</li>
+                <li>After confirm the order make the paymetn and share payment advice</li>
+                <li>Share your cusomtom logo on whatsapp or mail. </li>
+                <li>We will Dispatch between 7-10 days, after confirm the custom design.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className='  flex w-full flex-col space-y-3'>
+          <span className='text-gray-700 font-bold'>Inquiry On WhatsApp:</span>
           <button
             onClick={handleWhatsappMessage}
-            className="flex items-center w-max space-x-2 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-all"
+            className="flex items-center w-full justify-center space-x-2 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-all"
           >
             <FaWhatsapp size={24} />
             <span>WhatsApp Inquiry</span>
@@ -81,42 +139,38 @@ const ProductPage = () => {
           </div>
 
 
-          <div className=' flex w-full flex-col'>
-          <span className='text-gray-600 font-semibold'>How To Order:</span>
-            <AnimatedStepper />
-          </div>
 
-          <section className='flex flex-col'>
+          {/* <section className='flex flex-col'>
             <span className=' text-2xl text-gray-600 font-semibold'>How To Order</span>
             <button onClick={() => setIsPopupOpen(true)} className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-all">Show Steps</button>
           </section>
-          {isPopupOpen && <Popup onClose={() => setIsPopupOpen(false)} />}
+          {isPopupOpen && <Popup onClose={() => setIsPopupOpen(false)} />} */}
         </div>
-      </div>
+        </div>
 
       {/* Accordion */}
-      <div className="mt-8 border-t pt-4">
-        <details open className="border p-4 rounded-md">
-          <summary className="font-semibold cursor-pointer">Product Details</summary>
-          <div className="grid grid-cols-2 gap-4 mt-2">
-            <div>
-              <h1 className="font-bold text-lg mb-2">Product Highlights</h1>
-              <ul className="list-disc pl-6 text-justify">
-                <li>Made from high-quality materials</li>
-                <li>Perfect for daily use</li>
-                <li>Elegant and stylish design</li>
-                <li>Available in multiple sizes</li>
-              </ul>
+        <div className="mt-8 border-t pt-4">
+          <details open className="border p-4 rounded-md">
+            <summary className="font-semibold cursor-pointer">Product Details</summary>
+            <div className="grid grid-cols-2 gap-4 mt-2">
+              <div>
+                <h1 className="font-bold text-lg mb-2">Product Highlights</h1>
+                <ul className="list-disc pl-6 text-justify">
+                  <li>Made from high-quality materials</li>
+                  <li>Perfect for daily use</li>
+                  <li>Elegant and stylish design</li>
+                  <li>Available in multiple sizes</li>
+                </ul>
+              </div>
+              <div>
+                <h1 className="font-bold text-lg mb-2">Product Description</h1>
+                <p className="text-justify">
+                  This product is designed for those who value quality and comfort. It offers durability, sleek aesthetics, and a modern touch. Ideal for casual and professional settings.
+                </p>
+              </div>
             </div>
-            <div>
-              <h1 className="font-bold text-lg mb-2">Product Description</h1>
-              <p className="text-justify">
-                This product is designed for those who value quality and comfort. It offers durability, sleek aesthetics, and a modern touch. Ideal for casual and professional settings.
-              </p>
-            </div>
-          </div>
-        </details>
-      </div>
+          </details>
+        </div>
     </div>
   );
 };
