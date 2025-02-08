@@ -68,7 +68,7 @@ const CategorieDropdown = () => {
         >
           {/* Categories List */}
           <div className="w-1/2 bg-black p-4 text-white rounded-l-lg border-gray-300">
-            <ul className="w-full grid grid-cols-2 gap-x-6 gap-y-4">
+            <ul className="w-full grid grid-cols-1 gap-x-6 gap-y-4">
               {categorieDropdown_data.map((val, ind) => (
                 <React.Fragment key={ind}>
                   <li
