@@ -67,13 +67,13 @@ const CategorieDropdown = () => {
           onMouseLeave={handleMouseLeave} // Delayed close
         >
           {/* Categories List */}
-          <div className="w-1/2 bg-gray-200 p-4 text-white rounded-l-lg border-gray-300">
+          <div className="w-1/2 bg-black p-4 text-white rounded-l-lg border-gray-300">
             <ul className="w-full grid grid-cols-2 gap-x-6 gap-y-4">
               {categorieDropdown_data.map((val, ind) => (
                 <React.Fragment key={ind}>
                   <li
                     onMouseEnter={() => handleMouseEnter(val.subCategories)}
-                    className="py-4 px-4 space-x-4 flex w-full text-nowrap text-sm font-semibold justify-between items-center text-gray-700 hover:text-gray-900 hover:scale-105 transition-transform cursor-pointer"
+                    className="py-4 px-4 space-x-4 flex w-full text-nowrap text-sm font-semibold justify-between items-center text-slate-50 hover:text-white hover:underline hover:scale-105 transition-transform cursor-pointer"
                   >
                     {val.categoryName}
                   </li>
@@ -83,13 +83,13 @@ const CategorieDropdown = () => {
           </div>
 
           {/* Subcategories List */}
-          <div className="w-1/2 rounded-r-lg bg-gray-100 p-4">
+          <div className="w-1/2 rounded-r-lg bg-gray-900 p-4">
             {activeCategory && activeCategory.length > 0 ? (
               <ul>
                 {activeCategory.map((sub, ind) => (
                   <li
                     key={ind}
-                    className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-gray-700 hover:text-gray-900 hover:underline hover:scale-105 transition-transform cursor-pointer"
+                    className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-slate-50 hover:text-white  hover:underline hover:scale-105 transition-transform cursor-pointer"
                   >
                     {sub.subcategoriName}
                   </li>
@@ -98,7 +98,7 @@ const CategorieDropdown = () => {
             ) : (
               <ul>
                 <li
-                  className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-black hover:text-black hover:scale-105 transition-transform cursor-pointer"
+                  className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center  text-slate-50 hover:text-white hover:scale-105 transition-transform cursor-pointer"
                 >
                   {categorieDropdown_data[0]?.subCategories[0]?.subcategoriName}
                 </li>
