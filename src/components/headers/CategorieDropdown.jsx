@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { categorieDropdown_data } from "./constant";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const CategorieDropdown = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -85,15 +86,19 @@ const CategorieDropdown = () => {
 
           {/* Subcategories List */}
           <div className="w-[18rem] rounded-r-lg bg-gray-900 p-4">
+          {console.log(activeCategory)}
+
             {activeCategory && activeCategory.length > 0 ? (
+              
               <ul>
                 {activeCategory.map((sub, ind) => (
-                  <li
-                    key={ind}
-                    className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-slate-50 hover:text-white  hover:underline hover:scale-105 transition-transform cursor-pointer"
-                  >
-                    {sub.subcategoriName}
-                  </li>
+                  <Link to={`${sub?.route}?id=${sub.id}`} key={ind}>
+                      <li
+                          className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-slate-50 hover:text-white  hover:underline hover:scale-105 transition-transform cursor-pointer"
+                        >
+                          {sub.subcategoriName}
+                      </li>
+                  </Link>
                 ))}
               </ul>
             ) : (

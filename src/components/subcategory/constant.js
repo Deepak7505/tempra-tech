@@ -3,47 +3,72 @@ import { categories } from "../categories/constant";
 export const subCategories = {
   bottles: [
     {
-      id: "plastic-bottles",
+      id: "tempreture-bottles",
       parentCategory:"Bottles",
-      name: "Plastic Bottles",
+      name: "Tempreture Bottles",
       ProductList: categories[0].prodcutList,
     },
     {
-      id: "stainless-steel-bottles",
-      name: "Stainless Steel Bottles",
+      id: "ss-bottles",
+      name: "SS Bottles",
       ProductList: categories[0].prodcutList,
     },
     {
-      id: "copper-ottles",
-      name: "Copper Bottles",
+      id: "hot-and-cold-bottles",
+      name: "Hot & Cold Bottle",
       ProductList: categories[0].prodcutList,
     },
   ],
 
   lunchBox: [
     {
-      id: "steel-lunch-box",
+      name: "Lunch With Bottels And Spoon",
       parentCategory:"Lunch Box",
-      name: "Steel Lunch Box",
+      id:"lunch-with-bottels-and-spoon",
       ProductList: categories[1].prodcutList,
     },
     {
-      id: "plastic-lunch-box",
-      name: "Plastic Lunch Box",
+      name: "Rectangular",
+      id:"rectangular",
       ProductList: categories[1].prodcutList,
     },
+    {
+      name: "Square",
+      id:"square",
+      ProductList: categories[1].prodcutList,
+    }
   ],
 
   mugs: [
     {
-      id: "coffee-mugs",
+      name: "A Grade Mug",
       parentCategory:"Mugs",
-      name: "Coffee Mugs",
+      id:"a-grade-mug",
       ProductList: categories[2].prodcutList,
     },
     {
-      id: "travel-mug",
-      name: "Travel Mugs",
+      name: "AAA Grade Mug",
+      id:"aaa-grade-mug",
+      ProductList: categories[2].prodcutList,
+    },
+    {
+      name: "Heart Handle Shape Mug",
+      id:"heart-handle-shape-mug",
+      ProductList: categories[2].prodcutList,
+    },
+    {
+      name: "Megic Mug",
+      id:"megic-mug",
+      ProductList: categories[2].prodcutList,
+    },
+    {
+      name: "Metellic Mug",
+      id:"metellic-mug",
+      ProductList: categories[2].prodcutList,
+    }, 
+    {
+      name: "3 Tone Mug",
+      id:"3-tone-mug",
       ProductList: categories[2].prodcutList,
     },
   ],
@@ -60,55 +85,70 @@ export const subCategories = {
 
   mousePad: [
     {
-      id: "gaming-mouse-pad",
+      name: "7.9 * 9 Inch Mouse Pad",
       parentCategory:"Mouse Pad",
-      name: "Gaming Mouse Pad",
+      id:"7.9-9-inch-mouse-pad",
       ProductList: categories[4].prodcutList,
     },
     {
-      id: "office-mouse-pad",
-      name: "Office Mouse Pad",
+      name: "11 * 23 Inch Mouse Pad",
+      id:"11-23-inch-mouse-pad",
       ProductList: categories[4].prodcutList,
-    },
+    }
   ],
 
   paperClipBoard: [
     {
-      id: "a4-size-clip-board",
+      name: "MDF Clip Board",
       parentCategory:"Paper Clip Board",
-      name: "A4 Size Clipk Board",
+      id:"mdf-clip-board",
       ProductList: categories[5].prodcutList,
     },
     {
-      id: "a3-size-clipk-board",
-      name: "A3 Size Clipk Board",
+      name: "Plastic Clip Board",
+      id:"plastic-clip-board",
+      ProductList: categories[5].prodcutList,
+    },
+    {
+      name: "Acrylic Clip Board",
+      id:"acrylic-clip-board",
       ProductList: categories[5].prodcutList,
     },
   ],
 
   paperWeight: [
     {
-      id: "decorative-paper-weight",
+      name: "Acrylic Paper Weight",
       parentCategory:"Paper Weight",
-      name: "Decorative Paper Weight",
+      id:"acrylic-paper-weight",
       ProductList: categories[6].prodcutList,
     },
     {
-      id: "metal-paper-weight",
-      name: "Metal Paper Weight",
+      name: "Plastic Paper Weight",
+      id:"plastic-paper-weight",
       ProductList: categories[6].prodcutList,
     },
   ],
   pen: [
     {
-      id: "ballpoint-Pen",
+      name: "Plastic Pen",
       parentCategory:"Pen",
-      name: "Ballpoint Pen",
+      id:"plastic-pen",
       ProductList: categories[7].prodcutList,
     },
     {
-      id: "fountain-pen",
-      name: "Fountain Pen",
+      name: "Tip Top Pen",
+      id:"tip-top-pen",
+      ProductList: categories[7].prodcutList,
+    },
+    {
+      name: "SS Quality Pen",
+      id:"ss-quality-pen",
+      ProductList: categories[7].prodcutList,
+    },
+    {
+      name: "Luxury Pen",
+      id:"luxury-pen",
       ProductList: categories[7].prodcutList,
     },
   ],

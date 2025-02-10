@@ -1,58 +1,21 @@
-// export const categorieDropdown_data = [
-
-//     {
-//         categoryName: "Electronics",
-//         subCategories: [
-//             {
-//                 subcategoriName: "Mobile",
-//                 route: "/mobile",
-//             },
-//             {
-//                 subcategoriName: "Laptop",
-//                 route: "/laptop",
-//             },
-//             {
-//                 subcategoriName: "Camera",
-//                 route: "/camera",
-//             },
-//             {
-//                 subcategoriName: "Headphone",
-//                 route: "/headphone",
-//             },
-            
-//         ],
-//     },
-//     {
-//         categoryName: "Fashion",
-//         subCategories: [
-//                     {
-//                         subcategoriName:'bueaty',
-//                         route:'/bueaty'
-//                     },
-//                     {
-//                         subcategoriName:'cloth',
-//                         route:'/cloth'
-//                     },
-//                     {
-//                         subcategoriName:'shoes',
-//                         route:'/shoes'
-//                     }
-//                 ]
-//     }
-
-//  ];
-
 export const categorieDropdown_data = [
     {
       categoryName: "Bottle",
       subCategories: [
         {
-          subcategoriName: "Plastic Bottle",
-          route: "/plastic-bottle",
+          subcategoriName: "Temprature Bottle",
+          id:"tempreture-bottles",
+          route: "/categories/bottles",
         },
         {
-          subcategoriName: "Glass Bottle",
-          route: "/glass-bottle",
+          subcategoriName: "SS Bottle",
+          id:"ss-bottles",
+          route: "/categories/bottles",
+        },
+        {
+          subcategoriName: "Hot & Cold Bottle",
+          id:"hot-and-cold-bottles",
+          route: "/categories/bottles",
         },
       ],
     },
@@ -60,25 +23,54 @@ export const categorieDropdown_data = [
       categoryName: "Lunch Box",
       subCategories: [
         {
-          subcategoriName: "Steel Lunch Box",
-          route: "/steel-lunch-box",
+          subcategoriName: "Lunch With Bottels And Spoon",
+          id:"lunch-with-bottels-and-spoon",
+          route: "/categories/lunchBox",
         },
         {
-          subcategoriName: "Plastic Lunch Box",
-          route: "/plastic-lunch-box",
+          subcategoriName: "Rectangular",
+          id:"rectangular",
+          route: "/categories/lunchBox",
+        },
+        {
+          subcategoriName: "Square",
+          id:"square",
+          route: "/categories/lunchBox",
         },
       ],
     },
     {
-      categoryName: "Mug",
+      categoryName: "Mugs",
       subCategories: [
         {
-          subcategoriName: "Coffee Mug",
-          route: "/coffee-mug",
+          subcategoriName: "A Grade Mug",
+          id:"a-grade-mug",
+          route: "/categories/mugs",
         },
         {
-          subcategoriName: "Travel Mug",
-          route: "/travel-mug",
+          subcategoriName: "AAA Grade Mug",
+          id:"aaa-grade-mug",
+          route: "/categories/mugs",
+        },
+        {
+          subcategoriName: "Heart Handle Shape Mug",
+          id:"heart-handle-shape-mug",
+          route: "/categories/mugs",
+        },
+        {
+          subcategoriName: "Megic Mug",
+          id:"megic-mug",
+          route: "/categories/mugs",
+        },
+        {
+          subcategoriName: "Metellic Mug",
+          id:"metellic-mug",
+          route: "/categories/mugs",
+        }, 
+        {
+          subcategoriName: "3 Tone Mug",
+          id:"3-tone-mug",
+          route: "/categories/mugs",
         },
       ],
     },
@@ -99,12 +91,14 @@ export const categorieDropdown_data = [
       categoryName: "Mouse Pad",
       subCategories: [
         {
-          subcategoriName: "Gaming Mouse Pad",
-          route: "/gaming-mouse-pad",
+          subcategoriName: "7.9 * 9 Inch Mouse Pad",
+          id:"7.9-9-inch-mouse-pad",
+          route: "/categories/mousePad",
         },
         {
-          subcategoriName: "Office Mouse Pad",
-          route: "/office-mouse-pad",
+          subcategoriName: "11 * 23 Inch Mouse Pad",
+          id:"11-23-inch-mouse-pad",
+          route: "/categories/mousePad",
         },
       ],
     },
@@ -112,12 +106,19 @@ export const categorieDropdown_data = [
       categoryName: "Paper Clip Board",
       subCategories: [
         {
-          subcategoriName: "A4 Size Clip Board",
-          route: "/a4-clip-board",
+          subcategoriName: "MDF Clip Board",
+          id:"mdf-clip-board",
+          route: "/categories/paperClipBoard",
         },
         {
-          subcategoriName: "A3 Size Clip Board",
-          route: "/a3-clip-board",
+          subcategoriName: "Plastic Clip Board",
+          id:"plastic-clip-board",
+          route: "/categories/paperClipBoard",
+        },
+        {
+          subcategoriName: "Acrylic Clip Board",
+          id:"acrylic-clip-board",
+          route: "/categories/paperClipBoard",
         },
       ],
     },
@@ -125,12 +126,14 @@ export const categorieDropdown_data = [
       categoryName: "Paper Weight",
       subCategories: [
         {
-          subcategoriName: "Decorative Paper Weight",
-          route: "/decorative-paper-weight",
+          subcategoriName: "Acrylic Paper Weight",
+          id:"acrylic-paper-weight",
+          route: "/categories/paperWeight",
         },
         {
-          subcategoriName: "Metal Paper Weight",
-          route: "/metal-paper-weight",
+          subcategoriName: "Plastic Paper Weight",
+          id:"plastic-paper-weight",
+          route: "/categories/paperWeight",
         },
       ],
     },
@@ -138,12 +141,24 @@ export const categorieDropdown_data = [
       categoryName: "Pen",
       subCategories: [
         {
-          subcategoriName: "Ballpoint Pen",
-          route: "/ballpoint-pen",
+          subcategoriName: "Plastic Pen",
+          id:"plastic-pen",
+          route: "/categories/pen",
         },
         {
-          subcategoriName: "Fountain Pen",
-          route: "/fountain-pen",
+          subcategoriName: "Tip Top Pen",
+          id:"tip-top-pen",
+          route: "/categories/pen",
+        },
+        {
+          subcategoriName: "SS Quality Pen",
+          id:"ss-quality-pen",
+          route: "/categories/pen",
+        },
+        {
+          subcategoriName: "Luxury Pen",
+          id:"luxury-pen",
+          route: "/categories/pen",
         },
       ],
     },

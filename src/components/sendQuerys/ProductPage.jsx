@@ -1,17 +1,41 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ImageZoom from './ImageZoom';
 import { FaArrowLeft, FaWhatsapp } from "react-icons/fa";
-import Popup from './Popup';
 import { useParams } from 'react-router-dom';
-import AnimatedStepper from './AnimatedStepper';
 import RotatingDisclaimer from './RotatingDisclaimer';
+import { arrayOfProductIDs } from "./QueryConstatnt";
+
+/**
+ * 
+ *  This component is used to display the product details page.
+ *  images - Array of image URLs. One should be selected image. 
+ *  Product name 
+ *  Query Product id for whatsapp query. 
+ *  Size selection on there head only in clothes [sm,xl,etc].
+ * 
+ */
+
+
 
 const ProductPage = () => {
-  const [selectedImage, setSelectedImage] = useState('https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/11/Tshirt-design.jpg?auto=format&q=60&w=2060&h=1158.75&fit=crop&crop=faces');
+  const [selectedImage, setSelectedImage] = useState(null);
   const [selectedSize, setSelectedSize] = useState('M');
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [selectedProductDetails, setSelectedProductDetails] = useState(null);
+  const [images, setImages] = useState([]);
+ 
 
   const { prodId } = useParams();
+
+
+  useEffect(() => {
+    const filteredObject = arrayOfProductIDs.filter((val, index) => Number(prodId) === Number(val.id));
+    // alert(JSON.stringify(filteredObject));
+    setSelectedProductDetails(filteredObject[0]);
+    setSelectedImage(filteredObject[0].prodcutDetails.cardImage);
+    setImages(filteredObject[0].prodcutDetails.allProductImages);
+    console.log('the selected product details is ', selectedProductDetails);
+  },[]);
  
   const handleWhatsappMessage = () => {
     const whatsappMessage = `Hi, I want to buy this product. Product ID: ${prodId}, Selected Size: ${selectedSize}`;
@@ -19,12 +43,12 @@ const ProductPage = () => {
     window.open(whatsAppIconPath);
   };
 
-  const images = [
-    { id: 1, src: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/11/Tshirt-design.jpg?auto=format&q=60&w=2060.75&fit=crop&crop=faces' },
-    { id: 2, src: 'https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1' },
-    { id: 3, src: 'https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg' },
-    { id: 4, src: 'https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg' },
-  ];
+  // const images = [
+  //   { id: 1, src: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/11/Tshirt-design.jpg?auto=format&q=60&w=2060.75&fit=crop&crop=faces' },
+  //   { id: 2, src: 'https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1' },
+  //   { id: 3, src: 'https://www.qualitylogoproducts.com/custom-pens/satin-pen-hq.jpg' },
+  //   { id: 4, src: 'https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg' },
+  // ];
 
   const sizes = ["S", "M", "L", "XL"];
   const colors = [
@@ -53,13 +77,13 @@ const ProductPage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 ">
         <div className="flex space-x-4">
           <div className="flex flex-col space-y-2">
-            {images.map((image) => (
+            {images.map((image, ind) => (
               <img
-                key={image.id}
-                src={image.src}
-                alt={`Thumbnail ${image.id}`}
+                key={ind}
+                src={image.img}
+                alt={`img`}
                 className={`w-20 h-20 cursor-pointer border rounded-md ${selectedImage === image.src ? 'border-blue-500' : 'border-gray-300'}`}
-                onMouseEnter={() => setSelectedImage(image.src)}
+                onMouseEnter={() => setSelectedImage(image.img)}
               />
             ))}
           </div>
@@ -67,7 +91,7 @@ const ProductPage = () => {
         </div>
 
         <div className="space-y-6 gap-6 p-6  bg-white">
-          <h2 className="text-3xl font-bold">Product Title</h2>
+          <h2 className="text-3xl font-bold">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
           
 
 
@@ -140,11 +164,7 @@ const ProductPage = () => {
 
 
 
-          {/* <section className='flex flex-col'>
-            <span className=' text-2xl text-gray-600 font-semibold'>How To Order</span>
-            <button onClick={() => setIsPopupOpen(true)} className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-all">Show Steps</button>
-          </section>
-          {isPopupOpen && <Popup onClose={() => setIsPopupOpen(false)} />} */}
+       
         </div>
         </div>
 

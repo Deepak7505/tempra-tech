@@ -11,7 +11,10 @@ export const categories = [
                 prodName: "Bottel 1",
                 prodDetails: "description of this product here i will write",
                 cardImage:"https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462",
-                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'}],
+                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'},
+                    {img:'https://www.pngmart.com/files/16/Water-Bottle-Flask-Transparent-PNG.png'},
+                    {img:'https://www.topvaluereviews.net/wp-content/uploads/2016/05/61lOjVxejWL._SL1200_.jpg'}
+                ],
                 price:234,
                 discountedPrize: 190,
                 rating:4
@@ -21,7 +24,9 @@ export const categories = [
                 prodName: "Bottel 2",
                 prodDetails: "description of this product here i will write",
                 cardImage:"https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462",
-                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'}],
+                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'},
+                    {img:'https://www.pngmart.com/files/16/Water-Bottle-Flask-Transparent-PNG.png'},
+                    {img:'https://www.topvaluereviews.net/wp-content/uploads/2016/05/61lOjVxejWL._SL1200_.jpg'}],
                 price:234,
                 discountedPrize: 190,
                 rating:4
@@ -31,7 +36,9 @@ export const categories = [
                 prodName: "Bottel 3",
                 prodDetails: "description of this product here i will write",
                 cardImage:"https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462",
-                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'}],
+                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'},
+                    {img:'https://www.pngmart.com/files/16/Water-Bottle-Flask-Transparent-PNG.png'},
+                    {img:'https://www.topvaluereviews.net/wp-content/uploads/2016/05/61lOjVxejWL._SL1200_.jpg'}],
                 price:234,
                 discountedPrize: 190,
                 rating:4
@@ -41,7 +48,10 @@ export const categories = [
                 prodName: "Bottel 4",
                 prodDetails: "description of this product here i will write",
                 cardImage:"https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462",
-                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'}],
+                allProductImages: [{img:'https://nestasia.in/cdn/shop/files/waterbottles_3.webp?v=1697635462'},
+                    {img:'https://www.pngmart.com/files/16/Water-Bottle-Flask-Transparent-PNG.png'},
+                    {img:'https://www.topvaluereviews.net/wp-content/uploads/2016/05/61lOjVxejWL._SL1200_.jpg'},
+                    {img:'https://img.freepik.com/premium-photo/metallic-water-bottle-grey-background_994418-8642.jpg'}],
                 price:234,
                 discountedPrize: 190,
                 rating:4
