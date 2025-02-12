@@ -11,7 +11,7 @@ export const subCategories = {
     {
       id: "ss-bottles",
       name: "SS Bottles",
-      ProductList: categories[0].prodcutList,
+      ProductList: categories[0].productList2,
     },
     {
       id: "hot-and-cold-bottles",

@@ -94,6 +94,7 @@ const CategorieDropdown = () => {
                 {activeCategory.map((sub, ind) => (
                   <Link to={`${sub?.route}?id=${sub.id}`} key={ind}>
                       <li
+                        onClick={() => setShowDropdown(false)}
                           className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-slate-50 hover:text-white  hover:underline hover:scale-105 transition-transform cursor-pointer"
                         >
                           {sub.subcategoriName}
@@ -104,6 +105,7 @@ const CategorieDropdown = () => {
             ) : (
               <ul>
                 <li
+                  onClick={() => setShowDropdown(false)}
                   className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center  text-slate-50 hover:text-white hover:scale-105 transition-transform cursor-pointer"
                 >
                   {categorieDropdown_data[0]?.subCategories[0]?.subcategoriName}
