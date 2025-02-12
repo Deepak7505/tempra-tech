@@ -15,9 +15,7 @@ export const categories = [
                     {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/5.JPG?raw=true'},
                     {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/6.JPG?raw=true'}, {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/7.JPG?raw=true'},
                     {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/8.JPG?raw=true'},
-                    {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/1.jpg?raw=true'},
-                    {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/2-2.jpg?raw=true'}
-                    
+                    {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/2-2.jpg?raw=true'}  
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Brandin"]
