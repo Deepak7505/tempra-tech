@@ -25,7 +25,7 @@ const ImageZoom = ({ src, alt }) => {
       <img
         src={src}
         alt={alt}
-        className=" h-auto w-auto transition-transform rounded-xl duration-200"
+        className=" w-auto h-[36rem] transition-transform rounded-xl duration-200"
         style={{
           transform: zoom ? `scale(2)`: 'scale(1)',
           transformOrigin: `${position.x}% ${position.y}%`,
