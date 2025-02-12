@@ -15,7 +15,8 @@ export const categories = [
                     {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/5.JPG?raw=true'},
                     {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/6.JPG?raw=true'}, {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/7.JPG?raw=true'},
                     {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/8.JPG?raw=true'},
-                    {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/1.jpg?raw=true'}
+                    {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/1.jpg?raw=true'},
+                    {img:'https://github.com/Deepak7505/myimages/blob/main/bottles-done/bottles-done/tempreture%20bottle%20image/2-2.jpg?raw=true'}
                     
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
