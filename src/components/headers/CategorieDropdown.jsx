@@ -54,7 +54,7 @@ const CategorieDropdown = () => {
       {/* Toggle Button */}
       <button
         onMouseEnter={handleToggleDropdown}
-        className="flex items-center hover:scale-105 hover:text-gray-900"
+        className="flex items-center font-semibold text-lg text-gray-600 hover:scale-105 hover:text-gray-700"
       >
         <FontAwesomeIcon className="pr-2" icon={faBars} />
         Categories
@@ -68,13 +68,13 @@ const CategorieDropdown = () => {
           onMouseLeave={handleMouseLeave} // Delayed close
         >
           {/* Categories List */}
-          <div className="w-max bg-black p-4 text-white rounded-l-lg border-gray-300">
+          <div className="w-max mt-2 bg-gray-50 p-4 text-gray-800 rounded-l-lg border-gray-300">
             <ul className="w-[16rem] grid grid-cols-1 gap-x-10 gap-y-4">
               {categorieDropdown_data.map((val, ind) => (
                 <React.Fragment key={ind}>
                   <li
                     onMouseEnter={() => handleMouseEnter(val.subCategories)}
-                    className="py-4 px-4 space-x-4 flex w-full text-nowrap text-sm font-semibold justify-between items-center text-slate-50 hover:text-white hover:underline hover:scale-105 transition-transform cursor-pointer"
+                    className="py-4 px-4 space-x-4 flex w-full text-nowrap text-sm font-semibold justify-between items-center text-gray-700 hover:text-gray-800 hover:underline hover:scale-105 transition-transform cursor-pointer"
                   >
                     {val.categoryName}
                     {/* <FontAwesomeIcon icon={faGreaterThan} /> */}
@@ -85,7 +85,7 @@ const CategorieDropdown = () => {
           </div>
 
           {/* Subcategories List */}
-          <div className="w-[18rem] rounded-r-lg bg-gray-900 p-4">
+          <div className="w-[18rem] rounded-r-lg bg-gray-50 border-l-2 border-gray-200 mt-2 p-4">
           {console.log(activeCategory)}
 
             {activeCategory && activeCategory.length > 0 ? (
@@ -95,7 +95,7 @@ const CategorieDropdown = () => {
                   <Link to={`${sub?.route}?id=${sub.id}`} key={ind}>
                       <li
                         onClick={() => setShowDropdown(false)}
-                          className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-slate-50 hover:text-white  hover:underline hover:scale-105 transition-transform cursor-pointer"
+                          className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center text-gray-700 hover:text-gray-800  hover:underline hover:scale-105 transition-transform cursor-pointer"
                         >
                           {sub.subcategoriName}
                       </li>
@@ -105,8 +105,8 @@ const CategorieDropdown = () => {
             ) : (
               <ul>
                 <li
-                  onClick={() => setShowDropdown(false)}
-                  className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center  text-slate-50 hover:text-white hover:scale-105 transition-transform cursor-pointer"
+                    onClick={() => setShowDropdown(false)}
+                  className="py-4 px-4 flex w-full text-sm font-semibold justify-between items-center  text-gray-700 hover:text-gray-800 hover:scale-105 transition-transform cursor-pointer"
                 >
                   {categorieDropdown_data[0]?.subCategories[0]?.subcategoriName}
                 </li>

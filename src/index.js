@@ -10,6 +10,7 @@ import TemporaryError from "./components/ErrorElements/TemporaryError";
 import Categories from "./components/categories/Categories";
 import SubCategories from "./components/subcategory/SubCategories";
 import ProductPage from "./components/sendQuerys/ProductPage";
+import WhatsAppIcon from "./components/HomePage/WhatsAppIcon";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             <LimitedOfferHeader />
             <Header />
             <Outlet />    
+            <WhatsAppIcon />
             <Footer />
         </>
 
