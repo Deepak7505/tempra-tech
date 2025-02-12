@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { categorieDropdown_data } from "./constant";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faChevronDown, faChevronRight, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -17,20 +17,22 @@ const CategorieDropdown = () => {
 
   const handleMouseEnter = (event, subCategories) => {
     if (!subCategories || subCategories.length === 0) return;
-
-    const rect = event.target.getBoundingClientRect();
-    const parentDropdown = event.target.closest(".parent-dropdown");
+  
+    const rect = event.target.getBoundingClientRect();  // Get the position of the hovered category
+    const parentDropdown = event.target.closest(".parent-dropdown");  // Find the closest parent dropdown
     if (!parentDropdown) return;
-
-    const parentRect = parentDropdown.getBoundingClientRect();
-
+  
+    const parentRect = parentDropdown.getBoundingClientRect();  // Get the position of the parent dropdown
+  
+    // Adjust the position of the subcategory and reduce top by 20px
     setSubMenuPosition({
-      top: rect.top - parentRect.top + parentDropdown.scrollTop,
-      left: rect.right - parentRect.left + 10,
+      top: rect.bottom - parentRect.top - 85,  // Reduced 20px from the calculated top
+      left: rect.left - parentRect.left + rect.width,  // Position on the right
     });
-
-    setActiveCategory(subCategories);
+  
+    setActiveCategory(subCategories);  // Set the active subcategory to display
   };
+  
 
   const handleMouseLeave = () => {
     setTimeout(() => {
@@ -59,7 +61,10 @@ const CategorieDropdown = () => {
         className="flex items-center font-semibold text-lg text-gray-600 hover:scale-105 hover:text-gray-700"
       >
         Categories
-        <FontAwesomeIcon className="ml-2 text-sm" icon={faChevronDown} />
+ <FontAwesomeIcon
+          className="pl-2"
+          icon={showDropdown ? faChevronUp : faChevronDown}
+        />
       </button>
 
       {/* Dropdown */}
@@ -97,8 +102,11 @@ const CategorieDropdown = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 10 }}
               transition={{ duration: 0.2 }}
-              className="absolute bg-gray-50 shadow-md border rounded-lg p-4 w-max"
-              style={{ top: subMenuPosition.top, left: subMenuPosition.left }}
+              className="absolute bg-gray-50 shadow-md border rounded-lg mb-3 p-4 w-max"
+              style={{
+                top: subMenuPosition.top ,
+                left: subMenuPosition.left,
+              }}
             >
               <ul>
                 {activeCategory.map((sub, ind) => (
@@ -121,6 +129,8 @@ const CategorieDropdown = () => {
 };
 
 export default CategorieDropdown;
+
+
 
 
 
