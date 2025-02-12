@@ -43,7 +43,7 @@ const ProductPage = () => {
   const [selectedColor, setSelectedColor] = useState(null);
 
   return (
-    <div className="p-2  bg-gray-50 pb-32">
+    <div className="p-2  bg-gray-50 pb-[24rem]">
       
       <div className='flex sm:flex-row flex-col w-full bg-white'>
         <button
@@ -150,8 +150,8 @@ const ProductPage = () => {
         </div>
 
       {/* Accordion */}
-      <div className="mt-8 border-t pt-4">
-          <details open className="border p-4 rounded-md">
+      <div className="mt-8  pt-4">
+          <details open className=" p-4 rounded-md">
             <summary className="font-semibold cursor-pointer">Product Details</summary>
             <div className="grid grid-cols-2 gap-10 mt-2">
               <div>
@@ -160,7 +160,7 @@ const ProductPage = () => {
                 {
                   selectedProductDetails ?   
                       selectedProductDetails?.prodcutDetails?.arrayOfHeighlight.map(( item ) => {
-                        return ( <li className='text-gray-600 text-justify font-semibold' key={item}>{item}</li>)
+                        return ( <li className='text-gray-700 text-justify font-semibold' key={item}>{item}</li>)
                      }
                     
                   ) : 'Loading...'
@@ -170,7 +170,7 @@ const ProductPage = () => {
               </div>
               <div>
                 <h1 className="font-bold text-lg mb-2">Product Description</h1>
-                <p className="text-justify space-y-2 gap-2 text-gray-600 font-semibold">
+                <p className="text-justify space-y-2 gap-2 text-gray-700 font-semibold">
                 {
                   selectedProductDetails ?   
                       selectedProductDetails?.prodcutDetails?.totalDiscription
