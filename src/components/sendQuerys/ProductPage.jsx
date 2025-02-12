@@ -156,7 +156,7 @@ const ProductPage = () => {
             <div className="grid grid-cols-2 gap-10 mt-2">
               <div>
                 <h1 className="font-bold text-lg mb-2">Product Highlights</h1>
-                <ul className="list-disc space-y-2 pl-6 text-justify">
+                <ul className="list-disc space-y-5 pl-6 text-justify">
                 {
                   selectedProductDetails ?   
                       selectedProductDetails?.prodcutDetails?.arrayOfHeighlight.map(( item ) => {
