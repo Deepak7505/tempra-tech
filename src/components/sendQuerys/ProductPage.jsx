@@ -106,7 +106,7 @@ const ProductPage = () => {
           </button>
           </div>
 
-          <div className="bottom-5 right-5 bg-yellow-500 text-black text-center font-bold text-lg px-6 py-11 rounded-xl shadow-lg border-2 border-yellow-700">
+          <div className="bottom-5 right-5 bg-yellow-500 text-white text-center font-bold text-xl px-6 py-11 rounded-xl shadow-lg border-2 border-yellow-700">
       Minimum Order Quantity: { selectedProductDetails?.prodcutDetails?.minimumOrderquantity } pieces
     </div>
 
