@@ -73,8 +73,8 @@ const ProductPage = () => {
           <ImageZoom src={selectedImage} alt="Product Image" className="rounded-lg shadow-lg" />
         </div>
 
-        <div className="space-y-6 gap-6 p-6  bg-white">
-          <h2 className="text-3xl font-bold">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
+        <div className="space-y-6 gap-6 p-6 bg-white">
+          <h2 className="text-3xl font-bold pb-9">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
           
 
 
@@ -82,8 +82,8 @@ const ProductPage = () => {
 
 
 
-          <div className=' flex w-full flex-col'>
-          <span className='text-gray-700 font-bold'>How To Order:</span>
+          <div className=' mt-8 flex w-full flex-col'>
+          <span className='text-gray-700 font-bold pb-5'>How To Order:</span>
             <div>
               <ul className="list-decimal space-y-2 pl-6 text-gray-600 text-justify font-semibold">
                 <li>Choose the product & click on whatsapp inquiry button</li>
@@ -96,7 +96,7 @@ const ProductPage = () => {
           </div>
 
           <div className='  flex w-full flex-col space-y-3'>
-          <span className='text-gray-700 font-bold'>Inquiry On WhatsApp:</span>
+          <span className='text-gray-700 font-bold pb-5 pt-5'>Inquiry On WhatsApp:</span>
           <button
             onClick={handleWhatsappMessage}
             className="flex items-center w-full justify-center space-x-2 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-all"
@@ -106,9 +106,9 @@ const ProductPage = () => {
           </button>
           </div>
 
-          <div className="bottom-5 right-5 bg-yellow-500 text-white text-center font-bold text-xl px-6 py-11 rounded-xl shadow-lg border-2 border-yellow-700">
-      Minimum Order Quantity: { selectedProductDetails?.prodcutDetails?.minimumOrderquantity } pieces
-    </div>
+          <div className="flex items-center w-full justify-center space-x-2 font-semibold text-red-700 px-4 py-2 rounded-md">
+                Minimum Order Quantity for this product is {selectedProductDetails?.prodcutDetails?.minimumOrderquantity } pcs
+          </div>
 
 
         </div>
