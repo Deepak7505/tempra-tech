@@ -43,7 +43,7 @@ const ProductPage = () => {
   const [selectedColor, setSelectedColor] = useState(null);
 
   return (
-    <div className="p-2  bg-gray-50">
+    <div className="p-2  bg-gray-50 pb-32">
       
       <div className='flex sm:flex-row flex-col w-full bg-white'>
         <button
