@@ -4,13 +4,14 @@ import { FaArrowLeft, FaWhatsapp } from "react-icons/fa";
 import { useParams } from 'react-router-dom';
 import RotatingDisclaimer from './RotatingDisclaimer';
 import { arrayOfProductIDs } from "./QueryConstatnt";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import VibratingBall from './VibratingBall';
 
 
 
 const ProductPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedSize, setSelectedSize] = useState('M');
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [selectedProductDetails, setSelectedProductDetails] = useState(null);
   const [images, setImages] = useState([]);
  
@@ -43,7 +44,7 @@ const ProductPage = () => {
   const [selectedColor, setSelectedColor] = useState(null);
 
   return (
-    <div className="p-2  bg-gray-50 pb-[24rem]">
+    <div className="p-2  bg-gray-50 ">
       
       <div className='flex sm:flex-row flex-col w-full bg-white'>
         <button
@@ -73,8 +74,21 @@ const ProductPage = () => {
           <ImageZoom src={selectedImage} alt="Product Image" className="rounded-lg shadow-lg" />
         </div>
 
-        <div className="space-y-6 gap-6 p-6 bg-white">
-          <h2 className="text-3xl font-bold pb-9">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
+        <div className="space-y-6 gap-6 pl-8 pr-6 bg-white ">
+          <h2 className="text-3xl font-bold pb-2">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
+          <span className='font-semibold'>⭐⭐⭐⭐</span>
+          <span className='text-[7px] pl-4'>🟢</span>
+          <span className='font-semibold text-sm text-gray-900'> 18 Reviews.</span>
+          <span className='text-[7px] pl-4'>🟢</span>
+          <span className='font-semibold text-sm pl-1 text-gray-600'>Reviews As Per Market Demand.</span>
+          <div className='flex flex-col space-y-3'>
+            <div className=' flex items-center justify-start'>
+            <VibratingBall />
+          <span className='font-semibold ml-6'> In Stock</span>
+            </div>
+          {/* <span className='font-semibold'>🟢  In Stock</span> */}
+          <span className='font-semibold '>✅ Ready To Ship </span>
+          </div>
           
 
 
@@ -115,11 +129,12 @@ const ProductPage = () => {
         </div>
 
       {/* Accordion */}
-      <div className="mt-8  pt-4">
-          <details open className=" p-4 rounded-md">
+      <div className="mt-8 bg-gray-100 px-4 py-4 pb-14">
+        <h1 className='text-center pb-5 text-xl font-semibold'>About this item</h1>
+          <details open className=" rounded-sm p-4 md:h-[40rem] bg-gray-50">
             <summary className="font-semibold cursor-pointer">Product Details</summary>
-            <div className="grid grid-cols-2 gap-10 mt-2">
-              <div>
+            <div className="grid grid-cols-2 gap-10 mt-2 ">
+              <div className='border-r-2 h-[34rem] pr-4'>
                 <h1 className="font-bold text-lg mb-2">Product Highlights</h1>
                 <ul className="list-disc space-y-5 pl-6 text-justify">
                 {
