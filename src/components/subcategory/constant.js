@@ -3,12 +3,7 @@ import { categories } from "../categories/constant";
 
 export const subCategories = {
   bottles: [
-    {
-      id: "tempreture-bottles",
-      parentCategory:"Bottles",
-      name: "Tempreture Bottles",
-      ProductList: categories[0].prodcutList,
-    },
+    
     {
       id: "ss-bottles",
       name: "SS Bottles",
@@ -16,7 +11,13 @@ export const subCategories = {
     },
     {
       id: "hot-and-cold-bottles",
-      name: "Hot & Cold Bottle",
+      name: "Bottles On Demand",
+      ProductList: categories[0].productList3,
+    },
+    {
+      id: "tempreture-bottles",
+      parentCategory:"Bottles",
+      name: "Tempreture Bottles",
       ProductList: categories[0].prodcutList,
     },
   ],
@@ -94,7 +95,7 @@ export const subCategories = {
     {
       name: "11 * 23 Inch Mouse Pad",
       id:"11-23-inch-mouse-pad",
-      ProductList: categories[4].prodcutList,
+      ProductList: categories[4].prodcutList2,
     }
   ],
 

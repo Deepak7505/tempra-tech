@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const  VibratingBall  = () =>  {
   return (
-    <div className="flex w-max bg-gray-100">
+    <div className="flex w-max ml-1 bg-gray-100">
       {/* Outer Wave Effect */}
       <div className="relative pb-3">
         <motion.div

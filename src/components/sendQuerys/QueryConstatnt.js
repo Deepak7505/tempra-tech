@@ -26,6 +26,39 @@ export const arrayOfProductIDs = [
         id: '00106',
         prodcutDetails: categories[0].productList2[4],
     },
+    {
+        id: '00107',
+        prodcutDetails: categories[0].productList3[0],
+    },
+    {
+        id: '00108',
+        prodcutDetails: categories[0].productList3[1],
+    },
+    {
+        id: '00109',
+        prodcutDetails: categories[0].productList3[2],
+    },
+    {
+        id: '001010',
+        prodcutDetails: categories[0].productList3[3],
+    },
+    {
+        id: '001011',
+        prodcutDetails: categories[0].productList3[4],
+    },
+    {
+        id: '001012',
+        prodcutDetails: categories[0].productList3[5],
+    },
+    {
+        id: '00501',
+        prodcutDetails: categories[4].prodcutList[0],
+    },
+    {
+        id: '00502',
+        prodcutDetails: categories[4].prodcutList2[0],
+    },
+    
     // {
     //     id: '00103',
     //     prodcutDetails: categories[0].prodcutList[2],

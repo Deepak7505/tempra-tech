@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ImageZoom from './ImageZoom';
-import { FaArrowLeft, FaWhatsapp } from "react-icons/fa";
+import { FaArrowLeft, FaWhatsapp, FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { useParams } from 'react-router-dom';
 import RotatingDisclaimer from './RotatingDisclaimer';
 import { arrayOfProductIDs } from "./QueryConstatnt";
@@ -58,7 +58,7 @@ const ProductPage = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 bg-white ">
         <div className="flex space-x-4">
           <div className="flex flex-col space-y-2">
             {images.map((image, ind) => (
@@ -66,7 +66,7 @@ const ProductPage = () => {
                 key={ind}
                 src={image.img}
                 alt={`img`}
-                className={`w-20 h-20 cursor-pointer border rounded-md ${selectedImage === image.src ? 'border-blue-500' : 'border-gray-300'}`}
+                className={`w-20 h-20 cursor-pointer border rounded-md ${selectedImage === image.img ? 'border-blue-500' : 'border-gray-300'}`}
                 onMouseEnter={() => setSelectedImage(image.img)}
               />
             ))}
@@ -75,19 +75,44 @@ const ProductPage = () => {
         </div>
 
         <div className="space-y-6 gap-6 pl-8 pr-6 bg-white ">
-          <h2 className="text-3xl font-bold pb-2">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
-          <span className='font-semibold'>⭐⭐⭐⭐</span>
-          <span className='text-[7px] pl-4'>🟢</span>
-          <span className='font-semibold text-sm text-gray-900'> 18 Reviews.</span>
-          <span className='text-[7px] pl-4'>🟢</span>
-          <span className='font-semibold text-sm pl-1 text-gray-600'>Reviews As Per Market Demand.</span>
+          <h2 className="text-3xl font-bold ">{selectedProductDetails ?  selectedProductDetails?.prodcutDetails?.prodName : "Loading..."}</h2>
+      
+
+          <div className="w-max flex flex-wrap items-center justify-center md:justify-evenly space-y-2 md:space-y-0">
+            {/* Stars */}
+            <div className="flex space-x-1">
+              <FaStar className="text-yellow-500 text-lg" />
+              <FaStar className="text-yellow-500 text-lg" />
+              <FaStar className="text-yellow-500 text-lg" />
+              <FaStar className="text-yellow-500 text-lg" />
+              <FaStarHalfAlt className="text-yellow-500 text-lg" />
+            </div>
+
+            {/* Review Count */}
+            <div className="flex items-center space-x-1 md:pl-4">
+              <span className="text-[5px]">🟢</span>
+              <span className="font-semibold text-sm text-gray-500 underline">
+                18 Reviews
+              </span>
+            </div>
+
+            {/* Review Summary */}
+            <div className="flex items-center space-x-1 md:pl-4">
+              <span className="text-[5px]">🟢</span>
+              <span className="font-semibold text-sm text-gray-500">
+                Reviews As Per Market Demand.
+              </span>
+            </div>
+          </div>
+
+
           <div className='flex flex-col space-y-3'>
             <div className=' flex items-center justify-start'>
             <VibratingBall />
-          <span className='font-semibold ml-6'> In Stock</span>
+            <span className='font-semibold ml-6'> In Stock</span>
             </div>
           {/* <span className='font-semibold'>🟢  In Stock</span> */}
-          <span className='font-semibold '>✅ Ready To Ship </span>
+          <span className='font-semibold'>✅ Ready To Ship </span>
           </div>
           
 
@@ -120,8 +145,8 @@ const ProductPage = () => {
           </button>
           </div>
 
-          <div className="flex items-center w-full justify-center space-x-2 font-semibold text-red-700 px-4 py-2 rounded-md">
-                Minimum Order Quantity for this product is {selectedProductDetails?.prodcutDetails?.minimumOrderquantity } pcs
+          <div className="flex items-center w-full justify-center space-x-2 font-semibold text-red-700 px-4  rounded-md">
+                Minimum Order Quantity For This Product Is {selectedProductDetails?.prodcutDetails?.minimumOrderquantity } PCS.
           </div>
 
 

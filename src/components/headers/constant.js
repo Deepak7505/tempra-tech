@@ -2,21 +2,22 @@ export const categorieDropdown_data = [
     {
       categoryName: "Bottle",
       subCategories: [
-        {
-          subcategoriName: "Temprature Bottle",
-          id:"tempreture-bottles",
-          route: "/categories/bottles",
-        },
+        
         {
           subcategoriName: "SS Bottle",
           id:"ss-bottles",
           route: "/categories/bottles",
         },
         {
-          subcategoriName: "Hot & Cold Bottle",
+          subcategoriName: "Bottles On Demand",
           id:"hot-and-cold-bottles",
           route: "/categories/bottles",
         },
+        {
+          subcategoriName: "Temprature Bottle",
+          id:"tempreture-bottles",
+          route: "/categories/bottles",
+        }
       ],
     },
     {
@@ -91,12 +92,12 @@ export const categorieDropdown_data = [
       categoryName: "Mouse Pad",
       subCategories: [
         {
-          subcategoriName: "7.9 * 9 Inch Mouse Pad",
+          subcategoriName: "Small Mouse Pad (7.9 * 9)",
           id:"7.9-9-inch-mouse-pad",
           route: "/categories/mousePad",
         },
         {
-          subcategoriName: "11 * 23 Inch Mouse Pad",
+          subcategoriName: "Large Mouse Pad (11 * 23)",
           id:"11-23-inch-mouse-pad",
           route: "/categories/mousePad",
         },
