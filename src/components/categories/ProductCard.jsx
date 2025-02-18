@@ -1,13 +1,14 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
+import { FaWhatsapp } from "react-icons/fa";
 
 const ProductCard = ({ product }) => {
   const { cardImage, prodName, price, discountedPrize, rating, prodDetails } = product;
 
   return (
-    <div className="max-w-xs bg-white rounded-lg  overflow-hidden hover:scale-105 transition-transform mx-auto">
+    <div className=" bg-white md:w-[18rem] h-[23rem] rounded-md shadow-lg overflow-hidden hover:scale-105 transition-transform mx-auto">
       {/* Image Section  border border-gray-200 shadow-lg */}
-      <div className="relative h-48">
+      <div className="relative h-52 flex justify-center items-center mx-3">
         <img
           src={cardImage}
           alt={prodName}
@@ -39,14 +40,13 @@ const ProductCard = ({ product }) => {
           ))}
         </div>
 
-        {/* Pricing */}
-        <div className="mt-3 flex items-center">
-          <span className="text-gray-500 line-through text-xs">
-            ${price}
-          </span>
-          <span className="text-green-600 font-bold text-lg ml-2">
-            ${discountedPrize}
-          </span>
+        <div  className="mt-6 flex items-center justify-center">
+          <button
+            className="flex items-center w-full justify-center space-x-2 bg-red-800 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-all"
+          >
+            <FaWhatsapp size={24} />
+            <span>WhatsApp Inquiry</span>
+          </button>
         </div>
       </div>
     </div>

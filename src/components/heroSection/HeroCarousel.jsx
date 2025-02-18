@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const HeroCarousel = () => {
   const images = [
-    "https://i.etsystatic.com/37826877/r/il/c294c4/4245841858/il_fullxfull.4245841858_7we3.jpg",
+    "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mouse%20pad-done/mouse%20pad-done/7.5x9%20inch/7.5x9%20inch-1.png","https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mouse%20pad-done/mouse%20pad-done/7.5x9%20inch/7.5x9%20inch-3.png",
     "https://keyboardgear.com/wp-content/uploads/2020/12/Best-Gaming-Mouse-Pads-2021.jpg",
     "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/11/Tshirt-design.jpg?auto=format&q=60&w=2060&h=1158.75&fit=crop&crop=faces",
   ];
@@ -31,16 +31,16 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className=" flex bg-gray-50 justify-center md:pt-4 ">
-      <div className="relative w-full md:w-[90vw]">
-        {/* Image Section */}
-      <div className="relative h-[400px] md:h-[500px]  overflow-hidden">
+    <div className=" flex bg-gray-50 justify-center  ">
+      <div className="relative w-full md:w-full">
+        {/* Image Section md:w-[90vw] */}
+      <div className="relative h-[400px] md:h-[550px]  overflow-hidden">
         {images.map((image, index) => (
           <img
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
-            className={`absolute inset-0 w-full h-full object-fill md:rounded-2xl transition-opacity duration-500 ${
+            className={`absolute inset-0 w-full h-full object-fill transition-opacity duration-500 ${
               index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           />
@@ -65,12 +65,12 @@ const HeroCarousel = () => {
       </button>
 
       {/* Indicators */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
+      <div className="absolute bottom-4 left-1/2 transform opacity-100 -translate-x-1/2 flex gap-2">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full ${
+            className={`w-3 h-3 opacity-100 z-50 rounded-full ${
               index === currentIndex ? "bg-blue-500" : "bg-gray-300"
             }`}
           ></button>

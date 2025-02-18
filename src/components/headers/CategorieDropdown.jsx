@@ -54,11 +54,11 @@ const CategorieDropdown = () => {
   }, []);
 
   return (
-    <div className="relative w-full z-50 parent-dropdown" onClick={(e) => e.stopPropagation()}>
+    <div className="relative w-full  z-50 parent-dropdown" onClick={(e) => e.stopPropagation()}>
       {/* Toggle Button */}
       <button
         onMouseEnter={handleToggleDropdown}
-        className="flex items-center font-semibold text-lg text-gray-600 hover:scale-105 hover:text-gray-700"
+        className="flex items-center font-semibold font-poppins text-lg text-gray-900 hover:scale-105 hover:text-gray-900"
       >
         Categories
  <FontAwesomeIcon

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
-export default function ScrollingDisclaimer() {
+export default function ScrollingDisclaimer({colour}) {
   return (
     <div className="relative overflow-hidden w-full  py-2 mb-2">
       <motion.div
-        className="flex space-x-16 whitespace-nowrap text-blue-700 font-serif"
+        className="flex space-x-16 whitespace-nowrap text-white font-poppins"
         animate={{ x: ["0%", "-100%"] }}
         transition={{
           repeat: Infinity,

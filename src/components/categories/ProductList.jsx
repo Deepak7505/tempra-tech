@@ -14,27 +14,26 @@ const ProductList = () => {
     };
   
     return (
-      <div className="min-h-screen bg-gray-50 p-6 border-b-2">
+      <div className="min-h-screen bg-white p-6">
         <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center relative  gap-5 px-4 text-center">
-            <span className="hidden sm:block text-gray-700 flex-grow sm:pb-7">
-              ______________________________________________________________
-            </span>
-
-            <h1 className="text-2xl sm:text-2xl lg:text-5xl font-bold text-gray-700 mb-8">
-                Shop All Categoires
-            </h1>
-            <span className="hidden sm:block text-gray-700 flex-grow sm:pb-7">
-              ______________________________________________________________
-            </span>
+            
+            <div className='text-center mb-5 flex flex-col justify-center '>
+              <h1 className='text-[#5D5D5D] leading-[5rem] scale-y-110 font-din text-6xl font-bold'>SHOP ALL</h1>
+              <h1 className='text-[#C97511] font-poppins text-5xl font-bold'>CATEGORIES</h1>
+            </div>
+         
         </div>
-        <div className=" pb-3 border-b-2">
+        <div className=" pb-6">
           <Categories />
+        </div>
+        <div className='w-full flex items-center justify-center pb-12'>
+            <div className='w-5/6 h-3  border-b-4 border-dashed'></div>     
         </div>
 
         <div className="">
         {homePageTrendConstant.map((category, index) => (
           <div className=" mt-8" key={index}>
-            <h2 className="text-3xl text-center font-extrabold text-gray-700 mb-6">
+            <h2 className="text-[#5D5D5D] md:leading-[5rem] scale-y-125 font-din text-center text-4xl font-bold mb-8">
                 {/* <FontAwesomeIcon className="px-3 " icon={category.icon} /> */}
               {category?.categoryName}
             </h2>
@@ -50,6 +49,9 @@ const ProductList = () => {
             </div>
           </div>
         ))}
+        </div>
+        <div className='w-full flex items-center justify-center pt-20'>
+            <div className='w-full h-3 border-b-4 border-dashed'></div>     
         </div>
       </div>
     );

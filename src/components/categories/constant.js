@@ -214,6 +214,7 @@ export const categories = [
 
             }
         ],
+        parentCategory:"Bottles",
         img:'https://img.freepik.com/premium-photo/metallic-water-bottle-grey-background_994418-8642.jpg',
     },
     {
