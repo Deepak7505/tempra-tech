@@ -44,7 +44,7 @@ const Header = () => {
         >
             <span className="text-gray-900 text-lg flex items-center gap-2 cursor-pointer  hover:scale-105 hover:text-gray-900  ">
             <FontAwesomeIcon icon={faPhone} />
-            <span className="font-semibold cursor-text">+91 95600 84893</span>
+            <span className="font-semibold cursor-text">+91 9650 357050</span>
           </span>
         </motion.p>
         </div>
