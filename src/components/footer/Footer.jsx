@@ -54,15 +54,15 @@ const Footer = () => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-pink-900  rounded-md hover:text-pink-600 transition-colors "
+                  className="text-white  rounded-md hover:text-pink-600 transition-colors "
                 >
-                  <FaInstagram size={24} />
+                  <FaInstagram className="font-bold" size={24} />
                 </a>
                 <a
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-900 hover:text-blue-800 transition-colors  rounded-sm"
+                  className="text-white hover:text-blue-800 transition-colors  rounded-sm"
                 >
                   <FaFacebookF size={24} />
                 </a>
@@ -70,7 +70,7 @@ const Footer = () => {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-900 hover:text-blue-800 transition-colors "
+                  className="text-white hover:text-blue-800 transition-colors "
                 >
                   <FaLinkedin size={24} />
                 </a>
@@ -78,7 +78,7 @@ const Footer = () => {
                   href="https://whatsapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-green-900 hover:text-green-700 transition-colors  rounded-sm"
+                  className="text-white hover:text-green-700 transition-colors  rounded-sm"
                 >
                   <FaWhatsapp size={24} />
                 </a>
