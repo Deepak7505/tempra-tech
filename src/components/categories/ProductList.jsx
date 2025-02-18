@@ -17,9 +17,9 @@ const ProductList = () => {
       <div className="min-h-screen bg-white p-6">
         <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center relative  gap-5 px-4 text-center">
             
-            <div className='text-center mb-5 flex flex-col justify-center '>
+            <div className='text-center mb-5 flex flex-row gap-4 justify-center '>
             <h1 className='text-[#5D5D5D] leading-[3rem] scale-y-110 font-din text-4xl font-bold'>SHOP ALL</h1>
-            <h1 className='text-[#C97511] font-poppins text-3xl font-bold'>CATEGORIES</h1>
+            <h1 className='text-[#C97511] leading-[3rem] scale-y-110 font-din text-4xl font-bold'>CATEGORIES</h1>
             </div>
          
         </div>
