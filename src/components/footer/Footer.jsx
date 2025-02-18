@@ -4,7 +4,7 @@ import brandLogo from "../assets/tempra - Copy.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-950 text-white py-8 border-t border-gray-200">
+    <footer className="bg-[#C97511] text-white py-8 border-t border-gray-200">
       <div className="container mx-auto px-4">
         {/* Footer Content */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
@@ -15,7 +15,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#about-us"
-                  className="text-white hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors font-poppins"
                 >
                   About Us
                 </a>
@@ -23,7 +23,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#contact-us"
-                  className="text-white hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors font-poppins"
                 >
                   Contact Us
                 </a>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#terms"
-                  className="text-white hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors font-poppins"
                 >
                   Terms and Conditions
                 </a>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#privacy-policy"
-                  className="text-white hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors font-poppins"
                 >
                   Privacy Policy
                 </a>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#return-refund"
-                  className="text-white hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors font-poppins"
                 >
                   Return and Refund
                 </a>
@@ -62,7 +62,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#cancellation"
-                  className="text-white hover:text-blue-500 transition-colors"
+                  className="text-white hover:text-blue-500 transition-colors font-poppins"
                 >
                   Cancellation
                 </a>

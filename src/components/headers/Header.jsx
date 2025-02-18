@@ -41,7 +41,7 @@ const Header = () => {
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             style={{ fontSize: "18px" }}
-        >
+          >
             <span className="text-gray-900 text-lg flex items-center gap-2 cursor-pointer  hover:scale-105 hover:text-gray-900  ">
             <FontAwesomeIcon icon={faPhone} />
             <span className="font-semibold cursor-text">+91 9650 357050</span>
