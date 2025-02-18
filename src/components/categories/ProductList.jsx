@@ -30,15 +30,15 @@ const ProductList = () => {
             <div className='w-5/6 h-3  border-b-4 border-dashed'></div>     
         </div>
 
-        <div className="">
+        <div className="w-full flex justify-center items-center">
+        <div className="w-full pb-4 py-4 flex flex-col rounded-lg items-center justify-center px-4">
         {homePageTrendConstant.map((category, index) => (
-          <div className=" mt-8" key={index}>
-            <h2 className="text-[#5D5D5D] md:leading-[5rem] scale-y-125 font-din text-center text-4xl font-bold mb-8">
-                {/* <FontAwesomeIcon className="px-3 " icon={category.icon} /> */}
+          <div className="mt-8 my-8 w-[90%] bg-[#f7f3ee] px-7 py-8 rounded-md" key={index}>
+            <h2 className="text-gray-950 font-poppins text-center text-3xl font-bold mb-8">
               {category?.categoryName}
             </h2>
 
-            <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="overflow-x-auto flex space-x-4 pb-4 scroll-smooth">
               {category.prodcutList.map((prod) => (
                 <Link key={prod.prodId} to={`/product/${prod?.prodId}`}>
                 <div>
@@ -49,6 +49,7 @@ const ProductList = () => {
             </div>
           </div>
         ))}
+        </div>
         </div>
         <div className='w-full flex items-center justify-center pt-20'>
             <div className='w-full h-3 border-b-4 border-dashed'></div>     

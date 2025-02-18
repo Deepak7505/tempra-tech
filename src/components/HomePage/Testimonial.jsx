@@ -79,7 +79,7 @@ const TestimonialsCarousel = () => {
   const totalSlides = Math.ceil(testimonials.length / itemsPerSlide);
 
   return (
-    <section className="bg-gray-50 py-12">
+    <section className="py-12 border-b-4 border-dashed bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-extrabold text-gray-700 mb-6">
           How People See TEMPRA

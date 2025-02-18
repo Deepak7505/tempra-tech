@@ -32,52 +32,38 @@ const SubCategories = () => {
   return (
     <div className=" bg-purple-50">
       <div className='flex sm:flex-row flex-col py-4 px-4 w-full bg-red-600'>
-        {/* <button
-          onClick={() => window.history.back()}
-          className="flex items-center text-white border bg-gray-600 border-gray-400 px-4 py-2 rounded-lg hover:bg-gray-100 transition-all mb-4"
+        <button
+        onClick={() => window.history.back()}
+          className="flex items-center px-8 py-3 text-white text-xl bg-indigo-600 transition-all duration-500 shadow-[6px_6px_0px_black] skew-x-[-15deg] border-none cursor-pointer hover:shadow-[10px_10px_0px_#fbc638] focus:outline-none"
         >
-          <FaArrowLeft className="mr-2" /> Back
-        </button> */}
-
-
-
-    <button
-    onClick={() => window.history.back()}
-      className="flex items-center px-8 py-3 text-white text-xl bg-indigo-600 transition-all duration-500 shadow-[6px_6px_0px_black] skew-x-[-15deg] border-none cursor-pointer hover:shadow-[10px_10px_0px_#fbc638] focus:outline-none"
-    >
-      <span className="skew-x-[15deg]">BACK</span>
-      <span className="w-5 ml-7 relative top-[12%] transition-all duration-500 group-hover:mr-11">
-        <svg
-          width="50px"
-          height="20px"
-          viewBox="0 0 66 43"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g fill="none" fillRule="evenodd">
-            <path
-              className="transition-transform duration-400 translate-x-[-60%] group-hover:translate-x-0 animate-color"
-              d="M40.154 3.895L43.976.139a.49.49 0 0 1 .7.14L65.692 20.785a.74.74 0 0 1 0 1.414l-21.015 20.65a.49.49 0 0 1-.7-.14l-3.822-3.754a.49.49 0 0 1 .7-.7l16.84-16.537a.49.49 0 0 0 0-.707L40.154 4.608a.49.49 0 0 1 0-.713z"
-              fill="white"
-            />
-            <path
-              className="transition-transform duration-500 translate-x-[-30%] group-hover:translate-x-0 animate-color"
-              d="M20.154 3.895L23.976.139a.49.49 0 0 1 .7.14L45.692 20.785a.74.74 0 0 1 0 1.414l-21.015 20.65a.49.49 0 0 1-.7-.14l-3.822-3.754a.49.49 0 0 1 .7-.7l16.84-16.537a.49.49 0 0 0 0-.707L20.154 4.608a.49.49 0 0 1 0-.713z"
-              fill="white"
-            />
-            <path
-              className="group-hover:animate-color"
-              d="M0.154 3.895L3.976.139a.49.49 0 0 1 .7.14L25.692 20.785a.74.74 0 0 1 0 1.414l-21.015 20.65a.49.49 0 0 1-.7-.14l-3.822-3.754a.49.49 0 0 1 .7-.7l16.84-16.537a.49.49 0 0 0 0-.707L0.154 4.608a.49.49 0 0 1 0-.713z"
-              fill="white"
-            />
-          </g>
-        </svg>
-      </span>
-    </button>
-
-
-
-
-
+          <span className="skew-x-[15deg]">BACK</span>
+          <span className="w-5 ml-7 relative top-[12%] transition-all duration-500 group-hover:mr-11">
+            <svg
+              width="50px"
+              height="20px"
+              viewBox="0 0 66 43"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g fill="none" fillRule="evenodd">
+                <path
+                  className="transition-transform duration-400 translate-x-[-60%] group-hover:translate-x-0 animate-color"
+                  d="M40.154 3.895L43.976.139a.49.49 0 0 1 .7.14L65.692 20.785a.74.74 0 0 1 0 1.414l-21.015 20.65a.49.49 0 0 1-.7-.14l-3.822-3.754a.49.49 0 0 1 .7-.7l16.84-16.537a.49.49 0 0 0 0-.707L40.154 4.608a.49.49 0 0 1 0-.713z"
+                  fill="white"
+                />
+                <path
+                  className="transition-transform duration-500 translate-x-[-30%] group-hover:translate-x-0 animate-color"
+                  d="M20.154 3.895L23.976.139a.49.49 0 0 1 .7.14L45.692 20.785a.74.74 0 0 1 0 1.414l-21.015 20.65a.49.49 0 0 1-.7-.14l-3.822-3.754a.49.49 0 0 1 .7-.7l16.84-16.537a.49.49 0 0 0 0-.707L20.154 4.608a.49.49 0 0 1 0-.713z"
+                  fill="white"
+                />
+                <path
+                  className="group-hover:animate-color"
+                  d="M0.154 3.895L3.976.139a.49.49 0 0 1 .7.14L25.692 20.785a.74.74 0 0 1 0 1.414l-21.015 20.65a.49.49 0 0 1-.7-.14l-3.822-3.754a.49.49 0 0 1 .7-.7l16.84-16.537a.49.49 0 0 0 0-.707L0.154 4.608a.49.49 0 0 1 0-.713z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
         <div className='flex w-3/4 justify-center md:pl-40 '>
           <RotatingDisclaimer />
         </div>

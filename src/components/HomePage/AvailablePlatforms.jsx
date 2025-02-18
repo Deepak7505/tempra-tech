@@ -10,7 +10,7 @@ const platforms = [
 
 const AvailablePlatforms = () => {
   return (
-    <section className="bg-gray-50 py-12">
+    <section className="bg-gray-white py-12">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-extrabold text-gray-700 mb-6">Also Available On</h2>
         <div className="mt-8 flex flex-wrap justify-center gap-8">

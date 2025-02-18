@@ -16,7 +16,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className=''>
         <HeroCarousel />
         <ProductList />
         <Testimonial />

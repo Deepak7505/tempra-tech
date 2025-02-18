@@ -59,7 +59,7 @@ const Counter = ({ title, icon, storageKey, updateInterval, updateFunction, init
 
 const StatsSection = () => {
   return (
-    <div className="flex flex-wrap justify-center md:justify-between bg-gray-50 py-12 px-6 md:px-12 rounded-lg">
+    <div className="flex flex-wrap justify-center md:justify-between py-12 px-6 md:px-12 rounded-lg">
       <Counter
         title="Live Visitors"
         icon={<FaEye />}

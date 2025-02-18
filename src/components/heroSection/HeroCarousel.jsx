@@ -78,6 +78,7 @@ const HeroCarousel = () => {
       </div>
       </div>
     </div>
+
   );
 };
 
