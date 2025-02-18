@@ -18,10 +18,10 @@ const ProductList = () => {
         <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center relative  gap-5 px-4 text-center">
             
         <div className='text-center mb-5 flex flex-row gap-4 justify-center pt-5 '>
-          <span>____________________________________________________________________</span>
+          <span>_______________________________________________________________</span>
         <h1 className='text-[#5D5D5D]  font-poppins text-4xl font-bold'>Shop All</h1>
         <h1 className='text-[#C97511]  font-poppins text-4xl font-bold'>Categories</h1>
-        <span>_______________________________________________________________________</span>
+        <span>__________________________________________________________________</span>
 
         </div>
          
