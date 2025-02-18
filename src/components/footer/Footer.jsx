@@ -1,22 +1,27 @@
 import React from "react";
-import { FaInstagram, FaFacebookF, FaLinkedin, FaWhatsapp, FaAlignLeft, FaGreaterThan } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedin, FaWhatsapp, FaAlignLeft, FaGreaterThan, FaVoicemail, FaPhone, FaMailchimp, FaWhatsappSquare, FaAddressBook } from "react-icons/fa";
 import brandLogo from "../assets/tempra - Copy.png";
 import { footerDataRow1, footerDataRow2, footerDataRow3, footerText, aboutComData } from "./constant"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressCard, faMailBulk, faMailForward, faMailReply, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
     <footer className="bg-[#C97511] text-white border-t border-gray-200">
         <div className="flex bg-[#C97511]  py-16 justify-evenly flex-row">
-            <div className="flex w-[25%]">
+            <div className="flex flex-col w-[25%]">
+            <h3 className="text-xl font-semibold text-white text-center mb-4">About Us</h3>
+            
                 <span className="text-justify text-sm tracking-widest">{footerText}</span>
             </div>
             <div>
                 <div className="flex flex-row justify-between w-full mx-5">
                       <ul className="space-y-4 text-justify text-sm">
+                        <h3 className="text-xl font-semibold text-white text-center mb-4">Help</h3>
                           {
                             footerDataRow1.map(( item) => {
                               return (
-                              <div key={item.text} className="flex items-center gap-2 cursor-pointer relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-gray-300 after:bottom-0 after:left-0 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
+                              <div key={item.text} className="flex items-center gap-2 cursor-pointer relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-yellow-400 after:bottom-0 after:left-0 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
                                   <FaGreaterThan className="font-thin transition-all transform hover:translate-x-1" size={10} />
                                   <li className="text-sm transition-all">{item.text}</li>
                               </div>
@@ -30,12 +35,15 @@ const Footer = () => {
 
             <div className="flex flex-row justify-between w-full mx-5">
               <ul className="space-y-4 text-justify text-sm">
+                <h3 className="text-xl font-semibold text-white text-center mb-4">Contact Us</h3>
+
                 {aboutComData.map((item, ind) => (
                   <li
                     key={ind}
-                    className="flex items-center w-80 gap-2 cursor-pointer relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-gray-300 after:bottom-0 after:left-0 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 flex-nowrap"
+                    className="flex items-center w-80 gap-2  relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-yellow-400 after:bottom-0 after:left-0 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 flex-nowrap"
                   >
-                    <span className="font-medium whitespace-nowrap">{item.key}:</span>
+                    {/* <span className="font-medium whitespace-nowrap">{item.key}:</span> */}
+                    {ind !== 2 ? (<FontAwesomeIcon  icon={item.icon} />) : (<FaWhatsapp size={20} />) }
                     <span className="text-sm transition-all truncate min-w-0">{item.text}</span>
                   </li>
                 ))}
@@ -46,7 +54,8 @@ const Footer = () => {
             </div>
         </div>
         <div className="flex flex-col justify-center items-center pb-4">
-            <div className="text-center mt-8 text-base text-white">
+        <h6 className=" py-1 text-xl font-semibold ">TEMPRA TECHNOLOGY INDUSTRIES </h6> 
+            <div className="text-center mt-3 text-base text-white">
                 &copy; {new Date().getFullYear()} All rights reserved.
             </div>
             <div className="flex w-full justify-center sm:justify-center sm:pl-1 space-x-4 mt-3">

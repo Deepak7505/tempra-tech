@@ -1,16 +1,13 @@
+import { faAddressCard, faMailBulk, faMailForward, faMailReply, faPhone } from "@fortawesome/free-solid-svg-icons";
+
+
 export const footerDataRow1 = [
 
-    {
-        text: 'About Us',
-        route:'/'
-    },
+    
     {
         text: 'Terms and Conditions',
-        route:'/'
-    },
-    {
-        text: 'Contact Us',
-        route:'/'
+        route:'/',
+        heading:"Help"
     },
     {
         text: 'Privacy Policy',
@@ -45,24 +42,29 @@ export const footerDataRow2 = [
 export const aboutComData = [
     {
         text:"support@tempra.com",
-        key:"Email"
+        icon:faMailBulk,
+        key:"Email",
+        heading:"Contact Us"
     },
     {
         text:"919650357050",
+        icon:faPhone,
         key:"Phone"
     },
     {
         text:"919650357050",
+        icon:faMailForward,
         key:"Whatsapp"
     },
     {
         text:"B-97, street No-5, Krishna Colony,",
+        icon:faAddressCard,
         key:"Address"
     }
 
 ] 
 
-import { FaInstagram, FaFacebookF, FaLinkedin, FaWhatsapp, FaAlignLeft, FaGreaterThan } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedin, FaWhatsapp, FaAlignLeft, FaGreaterThan, FaVoicemail, FaPhone, FaMailchimp, FaWhatsappSquare, FaAddressBook } from "react-icons/fa";
 
 
 export const socialMediaIcons = [
