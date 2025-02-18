@@ -35,7 +35,7 @@ const Footer = () => {
 
             <div className="flex flex-row justify-between w-full mx-5">
               <ul className="space-y-4 text-justify text-sm">
-                <h3 className="text-xl font-semibold text-white text-center mb-4">Contact Us</h3>
+                <h3 className="text-xl font-semibold text-white text-start ml-8 mb-4">Contact Us</h3>
 
                 {aboutComData.map((item, ind) => (
                   <li
