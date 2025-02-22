@@ -18,15 +18,15 @@ const ProductList = () => {
         <div className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center relative  gap-5 px-4 text-center">
             
         <div className='text-center mb-5 flex flex-row gap-4 justify-center pt-5 '>
-          <span>_______________________________________________________________</span>
+          <span className="sm:block hidden">_______________________________________________________________</span>
         <h1 className='text-[#5D5D5D]  font-poppins text-4xl font-bold'>Shop All</h1>
         <h1 className='text-[#C97511]  font-poppins text-4xl font-bold'>Categories</h1>
-        <span>__________________________________________________________________</span>
+        <span className="sm:block hidden">__________________________________________________________________</span>
 
         </div>
          
         </div>
-        <div className=" pb-6">
+        <div className="pb-6">
           <Categories />
         </div>
         <div className='w-full flex items-center justify-center pb-12'>

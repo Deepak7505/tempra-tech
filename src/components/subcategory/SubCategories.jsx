@@ -72,7 +72,7 @@ const SubCategories = () => {
      <div className="w-full flex justify-center items-center">
         <div className="w-full pb-4 py-4 flex flex-col rounded-lg items-center justify-center px-4">
           {subCategories[categoryId]?.map((sub, index) => (
-            <div className="mt-8 my-8 w-4/5 bg-[#C2D6EF] px-7 py-8 rounded-md" key={index}>
+            <div className="mt-8 my-8 w-[90%] bg-[#C2D6EF] px-7 py-8 rounded-md" key={index}>
               <h2
                 id={sub?.id}
                 className="text-gray-950 font-poppins text-center text-3xl font-bold mb-8"
