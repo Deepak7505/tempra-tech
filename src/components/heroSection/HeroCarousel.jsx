@@ -3,8 +3,9 @@ import React, { useState, useEffect } from "react";
 const HeroCarousel = () => {
   const images = [
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/FRONT%20PAGE%20IMAGE/cool-facebook-ad-for-promoting-your-t-shirt-on-facebook.png","https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/FRONT%20PAGE%20IMAGE/make-a-facebook-ad-for-your-apparel-brand-teespring-spreadshirt.png",
-    "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/FRONT%20PAGE%20IMAGE/mockup-of-a-coffee-mug-suspended-in-a-minimalistic-magenta-themed-setting-2375-el1.png",
+    "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/FRONT%20PAGE%20IMAGE/mouse-pad-mockup-placed-over-a-colorful-surface-with-a-keyboard-and-a-mouse-m23223.png",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/FRONT%20PAGE%20IMAGE/mockup-of-the-front-view-of-two-toned-11-oz-mug-in-different-angles-27885.png",
+    "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/FRONT%20PAGE%20IMAGE/mockup-of-an-aluminum-bottle-surrounded-by-rocks-3085-el1.png"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,7 +35,7 @@ const HeroCarousel = () => {
     <div className=" flex bg-gray-50 justify-center  ">
       <div className="relative w-full md:w-full">
         {/* Image Section md:w-[90vw] */}
-      <div className="relative h-[400px] md:h-[600px]  overflow-hidden">
+      <div className="relative h-[400px] md:h-[630px]  overflow-hidden">
         {images.map((image, index) => (
           <img
             key={index}
