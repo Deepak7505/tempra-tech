@@ -9,7 +9,7 @@ const HeroCarousel = () => {
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/4.jpg",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/5.jpg",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/6.png"
-  ];
+  ]; 
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
