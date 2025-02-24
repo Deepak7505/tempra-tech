@@ -58,110 +58,80 @@ export const arrayOfProductIDs = [
         id: '00502',
         prodcutDetails: categories[4].prodcutList2[0],
     },
-    
-    // {
-    //     id: '00103',
-    //     prodcutDetails: categories[0].prodcutList[2],
-    // },
-    // {
-    //     id: '00104',
-    //     prodcutDetails: categories[0].prodcutList[3],
-    // },
-    // {
-    //     id: '00201',
-    //     prodcutDetails: categories[1].prodcutList[0],
-    // },
-    // {
-    //     id: '00202',
-    //     prodcutDetails: categories[1].prodcutList[1],
-    // },
-    // {
-    //     id: '00203',
-    //     prodcutDetails: categories[1].prodcutList[2],
-    // },
-    // {
-    //     id: '00204',
-    //     prodcutDetails: categories[1].prodcutList[3],
-    // },
-    // {
-    //     id: '00301',
-    //     prodcutDetails: categories[2].prodcutList[0],
-    // },
-    // {
-    //     id: '00302',
-    //     prodcutDetails: categories[2].prodcutList[1],
-    // },
-    // {
-    //     id: '00303',
-    //     prodcutDetails: categories[2].prodcutList[2],
-    // },
-    // {
-    //     id: '00304',
-    //     prodcutDetails: categories[2].prodcutList[3],
-    // },
-    // {
-    //     id: '00501',
-    //     prodcutDetails: categories[4].prodcutList[0],
-    // },
-    // {
-    //     id: '00502',
-    //     prodcutDetails: categories[4].prodcutList[1],
-    // },
-    // {
-    //     id: '00503',
-    //     prodcutDetails: categories[4].prodcutList[2],
-    // },
-    // {
-    //     id: '00504',
-    //     prodcutDetails: categories[4].prodcutList[3],
-    // },
-    // {
-    //     id: '00601',
-    //     prodcutDetails: categories[5].prodcutList[0],
-    // },
-    // {
-    //     id: '00602',
-    //     prodcutDetails: categories[5].prodcutList[1],
-    // },
-    // {
-    //     id: '00603',
-    //     prodcutDetails: categories[5].prodcutList[2],
-    // },
-    // {
-    //     id: '00604',
-    //     prodcutDetails: categories[5].prodcutList[3],
-    // },
-    // {
-    //     id: '00701',
-    //     prodcutDetails: categories[6].prodcutList[0],
-    // },
-    // {
-    //     id: '00702',
-    //     prodcutDetails: categories[6].prodcutList[1],
-    // },
-    // {
-    //     id: '00703',
-    //     prodcutDetails: categories[6].prodcutList[2],
-    // },
-    // {
-    //     id: '00704',
-    //     prodcutDetails: categories[6].prodcutList[3],
-    // },
-    // {
-    //     id: '00801',
-    //     prodcutDetails: categories[7].prodcutList[0],
-    // },
-    // {
-    //     id: '00802',
-    //     prodcutDetails: categories[7].prodcutList[1],
-    // },
-    // {
-    //     id: '00803',
-    //     prodcutDetails: categories[7].prodcutList[2],
-    // },
-    // {
-    //     id: '00804',
-    //     prodcutDetails: categories[7].prodcutList[3],
-    // },
-    
+    {
+        id: '00701',
+        prodcutDetails: categories[6].prodcutList[0],
+    },
+    {
+        id: '00702',
+        prodcutDetails: categories[6].prodcutList[1],
+    },
+    {
+        id: '00703',
+        prodcutDetails: categories[6].prodcutList[2],
+    },
+    {
+        id: '00704',
+        prodcutDetails: categories[6].prodcutList[3],
+    },{
+        id: '00705',
+        prodcutDetails: categories[6].prodcutList[4],
+    },{
+        id: '00706',
+        prodcutDetails: categories[6].prodcutList[5],
+    },{
+        id: '00707',
+        prodcutDetails: categories[6].prodcutList[6],
+    },{
+        id: '00708',
+        prodcutDetails: categories[6].prodcutList[7],
+    },{
+        id: '00709',
+        prodcutDetails: categories[6].prodcutList[8],
+    },{
+        id: '007010',
+        prodcutDetails: categories[6].prodcutList[9],
+    },{
+        id: '007011',
+        prodcutDetails: categories[6].prodcutList[10],
+    },{
+        id: '007012',
+        prodcutDetails: categories[6].prodcutList[11],
+    },{
+        id: '007013',
+        prodcutDetails: categories[6].prodcutList[12],
+    },{
+        id: '007014',
+        prodcutDetails: categories[6].prodcutList[13],
+    },{
+        id: '007015',
+        prodcutDetails: categories[6].prodcutList[14],
+    },{
+        id: '007016',
+        prodcutDetails: categories[6].prodcutList[15],
+    },{
+        id: '007017',
+        prodcutDetails: categories[6].prodcutList[16],
+    },{
+        id: '007018',
+        prodcutDetails: categories[6].prodcutList2[0],
+    },{
+        id: '007019',
+        prodcutDetails: categories[6].prodcutList2[1],
+    },{
+        id: '007020',
+        prodcutDetails: categories[6].prodcutList2[2],
+    },{
+        id: '007021',
+        prodcutDetails: categories[6].prodcutList2[3],
+    },
+    {
+        id: '007022',
+        prodcutDetails: categories[6].prodcutList2[4],
+    },
+    {
+        id: '007023',
+        prodcutDetails: categories[6].prodcutList2[5],
+    },
+  
  ];

@@ -128,7 +128,7 @@ export const subCategories = {
     {
       name: "Plastic Paper Weight",
       id:"plastic-paper-weight",
-      ProductList: categories[6].prodcutList,
+      ProductList: categories[6].prodcutList2,
     },
   ],
   pen: [
