@@ -33,11 +33,11 @@ export const categorieDropdown_data = [
           id:"rectangular",
           route: "/categories/lunchBox",
         },
-        {
-          subcategoriName: "Square",
-          id:"square",
-          route: "/categories/lunchBox",
-        },
+        // {
+        //   subcategoriName: "Square",
+        //   id:"square",
+        //   route: "/categories/lunchBox",
+        // },
       ],
     },
     {

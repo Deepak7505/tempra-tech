@@ -32,13 +32,13 @@ export const subCategories = {
     {
       name: "Rectangular",
       id:"rectangular",
-      ProductList: categories[1].prodcutList,
+      ProductList: categories[1].prodcutList2,
     },
-    {
-      name: "Square",
-      id:"square",
-      ProductList: categories[1].prodcutList,
-    }
+    // {
+    //   name: "Square",
+    //   id:"square",
+    //   ProductList: categories[1].prodcutList,
+    // }
   ],
 
   mugs: [

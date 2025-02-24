@@ -133,5 +133,67 @@ export const arrayOfProductIDs = [
         id: '007023',
         prodcutDetails: categories[6].prodcutList2[5],
     },
+    {
+        id: '00201',
+        prodcutDetails: categories[1].prodcutList2[0],
+    },
+    {
+        id: '00202',
+        prodcutDetails: categories[1].prodcutList[1],
+    },{
+        id: '00203',
+        prodcutDetails: categories[1].prodcutList[2],
+    },{
+        id: '00204',
+        prodcutDetails: categories[1].prodcutList[3],
+    },{
+        id: '00205',
+        prodcutDetails: categories[1].prodcutList[4],
+    },{
+        id: '00206',
+        prodcutDetails: categories[1].prodcutList[5],
+    },{
+        id: '00207',
+        prodcutDetails: categories[1].prodcutList[6],
+    },{
+        id: '00208',
+        prodcutDetails: categories[1].prodcutList[7],
+    },{
+        id: '00209',
+        prodcutDetails: categories[1].prodcutList[8],
+    },{
+        id: '002010',
+        prodcutDetails: categories[1].prodcutList[9],
+    },{
+        id: '002011',
+        prodcutDetails: categories[1].prodcutList[10],
+    },{
+        id: '002012',
+        prodcutDetails: categories[1].prodcutList[11],
+    },{
+        id: '002013',
+        prodcutDetails: categories[1].prodcutList[12],
+    },{
+        id: '002014',
+        prodcutDetails: categories[1].prodcutList[13],
+    },{
+        id: '002015',
+        prodcutDetails: categories[1].prodcutList2[0],
+    },{
+        id: '002016',
+        prodcutDetails: categories[1].prodcutList2[1],
+    },{
+        id: '002017',
+        prodcutDetails: categories[1].prodcutList2[2],
+    },{
+        id: '002018',
+        prodcutDetails: categories[1].prodcutList2[3],
+    },{
+        id: '002019',
+        prodcutDetails: categories[1].prodcutList2[4],
+    },{
+        id: '002020',
+        prodcutDetails: categories[1].prodcutList2[5],
+    }
   
  ];

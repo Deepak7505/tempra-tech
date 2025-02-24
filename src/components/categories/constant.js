@@ -224,43 +224,266 @@ export const categories = [
         prodcutList : [
             {
                 prodId: '00201',
-                prodName: "Lunch Box 1",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1",
-                allProductImages: [{img:'https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1'}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
+                prodName: "Lunch Box1",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/4.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/4.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
             },
             {
                 prodId: '00202',
-                prodName: "Lunch Box 2",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1",
-                allProductImages: [{img:'https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1'}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
+                prodName: "Lunch Box2",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/8.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/8.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
             },
             {
                 prodId: '00203',
-                prodName: "Lunch Box 3",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1",
-                allProductImages: [{img:'https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1'}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
+                prodName: "Lunch Box3",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/13.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/13.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
             },
             {
                 prodId: '00204',
-                prodName: "Lunch Box 4",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1",
-                allProductImages: [{img:'https://i0.wp.com/bestsellersindia.in/wp-content/uploads/2021/06/Best-Lunch-Box-For-Office-In-India-2.jpg?resize=700%2C700&ssl=1'}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
+                prodName: "Lunch Box4",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/25.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/25.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00205',
+                prodName: "Lunch Box5",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/32.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/32.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00206',
+                prodName: "Lunch Box6",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/33.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/33.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00207',
+                prodName: "Lunch Box7",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/36.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/36.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00208',
+                prodName: "Lunch Box8",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/40.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/40.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00209',
+                prodName: "Lunch Box9",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/47.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/47.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002010',
+                prodName: "Lunch Box10",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/50.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/50.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002011',
+                prodName: "Lunch Box11",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/56.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/56.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002012',
+                prodName: "Lunch Box12",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/67.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/67.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002013',
+                prodName: "Lunch Box13",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/70.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/70.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002014',
+                prodName: "Lunch Box14",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/74.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/mainLunchBox/74.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            }
+        ],
+        prodcutList2 : [
+            
+            {
+                prodId: '002015',
+                prodName: "Lunch Box15",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/104.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/104.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002016',
+                prodName: "Lunch Box16",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/106.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/106.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002017',
+                prodName: "Lunch Box17",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/107.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/107.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002018',
+                prodName: "Lunch Box18",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/113.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/113.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002019',
+                prodName: "Lunch Box19",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/80.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/80.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '002020',
+                prodName: "Lunch Box20",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/99.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/lunchBox/rectangular/99.png'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
             }
         ],
         img:'https://img.freepik.com/premium-photo/workplace-with-lunch-box-gray-textured-table_185193-49182.jpg',
