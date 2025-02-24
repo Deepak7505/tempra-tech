@@ -5,7 +5,7 @@ const HeroCarousel = () => {
   const images = [
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/1.png",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/2.jpg",
-    "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/3.jpg",
+    "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/3.png",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/4.jpg",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/5.jpg",
     "https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/for%20front%20page/for%20front%20page/6.png"
