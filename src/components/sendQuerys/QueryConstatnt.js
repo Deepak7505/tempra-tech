@@ -194,6 +194,59 @@ export const arrayOfProductIDs = [
     },{
         id: '002020',
         prodcutDetails: categories[1].prodcutList2[5],
-    }
+    },
   
+
+
+    {
+        id: '00301',
+        prodcutDetails: categories[2].prodcutList[0],
+    },
+    {
+        id: '00302',
+        prodcutDetails: categories[2].prodcutList[1],
+    },{
+        id: '00303',
+        prodcutDetails: categories[2].prodcutList[2],
+    },{
+        id: '00304',
+        prodcutDetails: categories[2].prodcutList[3],
+    },{
+        id: '00305',
+        prodcutDetails: categories[2].prodcutList[4],
+    },{
+        id: '00306',
+        prodcutDetails: categories[2].prodcutList2[0],
+    },{
+        id: '00307',
+        prodcutDetails: categories[2].prodcutList2[1],
+    },{
+        id: '00308',
+        prodcutDetails: categories[2].prodcutList2[2],
+    },{
+        id: '00309',
+        prodcutDetails: categories[2].prodcutList2[3],
+    },{
+        id: '003010',
+        prodcutDetails: categories[2].prodcutList3[0],
+    },{
+        id: '003011',
+        prodcutDetails: categories[2].prodcutList3[1],
+    },{
+        id: '003012',
+        prodcutDetails: categories[2].prodcutList3[2],
+    },{
+        id: '003013',
+        prodcutDetails: categories[2].prodcutList3[3],
+    },{
+        id: '003014',
+        prodcutDetails: categories[2].prodcutList3[4],
+    },{
+        id: '003015',
+        prodcutDetails: categories[2].prodcutList3[5],
+    },
+    {
+        id: '003015',
+        prodcutDetails: categories[2].prodcutList3[6],
+    },
  ];
