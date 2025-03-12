@@ -6,7 +6,7 @@ import RotatingDisclaimer from './RotatingDisclaimer';
 import { arrayOfProductIDs } from "./QueryConstatnt";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import VibratingBall from './VibratingBall';
-import { faArrowLeft, faLeftRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight, faGreaterThan, faLeftRight, faLessThan } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -70,9 +70,9 @@ const ProductPage = () => {
             </svg> */}
           
 
-            <FontAwesomeIcon icon={faArrowLeft} />
+            <FontAwesomeIcon icon={faLessThan} />
           </span>
-          <span className="w-12 ml-5 relative top-[12%] transition-all duration-500 group-hover:mr-11">BACK</span>
+          <span className="w-12 ml-5 relative top-[1%] transition-all duration-500 group-hover:mr-11">BACK</span>
         </button>
         <div className='flex w-3/4 justify-center md:pl-40 '>
           <RotatingDisclaimer />
