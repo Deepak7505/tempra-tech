@@ -2,7 +2,6 @@ export const categorieDropdown_data = [
     {
       categoryName: "Bottle",
       subCategories: [
-        
         {
           subcategoriName: "SS Bottle",
           id:"ss-bottles",
@@ -80,13 +79,37 @@ export const categorieDropdown_data = [
       subCategories: [
         {
           subcategoriName: "Shirts",
-          route: "/shirts",
+          route: "/categories/clothes",
+          id:"shirts",
+          sub_subCategoriName: [
+            {
+              childSub:"Poly Cotten Shirt",
+              id:"poly-cotten-shirt"
+            },
+            {
+              childSub:"cotten-shirt",
+              id:"shirt002"
+            }
+          ]
         },
         {
-          subcategoriName: "Pants",
-          route: "/pants",
+          subcategoriName: "T-Shirts",
+          id:"t-shirts",
+          route: "/categories/clothes",
+          sub_subCategoriName: [
+            {
+              childSub:"Polo T-shirt",
+              id:"polo-t-shirt"
+            },
+            {
+              childSub:"Round Neck T-Shirt",
+              id:"round-neck-t-shirt"
+            }
+          ]
         },
       ],
+      id:"clothes",
+      route:"/categories/clothes"
     },
     {
       categoryName: "Mouse Pad",

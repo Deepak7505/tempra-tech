@@ -561,8 +561,7 @@ export const categories = [
             //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
             //     minimumOrderquantity:60
                 
-            // },
-            
+            // },  
         ],
         prodcutList2 : [
             {
@@ -628,8 +627,8 @@ export const categories = [
         prodcutList3 : [
             {
                 prodId: '003010',
-                prodName: "Mug10",
-                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                prodName: "Colour Changing Magic Mugs",
+                prodDetails: "Add hot water and see the magic...",
                 cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/1-1.jpg",
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/1-1.jpg'} ,
@@ -641,98 +640,26 @@ export const categories = [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/9.JPEG'},
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'},
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"The Color-Changing Magic Mug is a unique and innovative drinkware item that adds a surprise element to every sip. Designed with a special heat-sensitive coating, this mug transforms from a solid dark color to reveal a hidden design, logo, or message when filled with a hot beverage. Whether for corporate gifting, office use, or personal enjoyment, this mug creates a memorable experience every time.",
+                arrayOfHeighlight:["325 ml ceramic mug.", "Photos appear when hot liquid is added.", "Reverts to black when empty & at room temperature.", "Clean with a sponge. Do not scrub over the images.", "Magic Mugs can safely be used in both conventional and microwave ovens; however, they aren't dishwasher safe.",
+                ],
+                arryaOfSpecification: [
+                    "Capacity: 325 ml (standard size for coffee, tea, or other hot beverages)",
+                    "Material: High-quality durable ceramic with a smooth, glossy finish",
+                    "Colour-Changing Effect: Heat-sensitive coating hides the design when cold and reveals it when hot liquid is added",
+                    "Printable Area: 21.5 cm x 8 cm – large enough for high-quality logos, images, or text",
+                    "Customization: Can be personalized with company logos, inspirational quotes, photos, or creative artwork",
+                    "Comfortable Handle: Ergonomically designed for easy grip and comfortable use",
+                    "Eco-Friendly: Reusable and safe for daily use",
+                    "Care Instructions: Hand wash recommended to maintain the magic effect and longevity of the print (not dishwasher or microwave safe)"
+                ],
+                arrayOfResons:[],
                 minimumOrderquantity:60
                 
             },
-            // {
-            //     prodId: '003011',
-            //     prodName: "Mug11",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/1.jpeg",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/1.jpeg'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'}
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '003012',
-            //     prodName: "Mug12",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/2.jpeg",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/2.jpeg'},
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '003013',
-            //     prodName: "Mug13",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/5.JPEG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/5.JPEG'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'}
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '003014',
-            //     prodName: "Mug14",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/6.JPEG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/6.JPEG'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'}
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '003015',
-            //     prodName: "Mug15",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/8.JPEG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/8.JPEG'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'}
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '003016',
-            //     prodName: "Mug16",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/9.JPEG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/9.JPEG'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'}
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
             
         ],
         img:'https://img.freepik.com/premium-photo/white-mug-mockup-grey-background_921026-10574.jpg'
-
     },
     {
         categoryName: "Clothes",
@@ -834,43 +761,40 @@ export const categories = [
         prodcutList : [
             {
                 prodId: '00601',
-                prodName: "Paper clip board 1",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
-                allProductImages: [{img:'https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg'}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
-            },
+                prodName: "Acrylic Clip Board1",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/1.JPEG",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/1.JPEG'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/2.JPEG'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/3.JPEG'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/4.JPEG'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/5.JPEG'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/acrylic%20clip%20board/6.JPEG'},    
+                    
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            }
+        ],
+        productList2: [
             {
                 prodId: '00602',
-                prodName: "Paper clip board 2",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
-                allProductImages: [{img:''}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
-            },
-            {
-                prodId: '00603',
-                prodName: "Paper clip board 3",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
-                allProductImages: [{img:''}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
-            },
-            {
-                prodId: '00604',
-                prodName: "Paper clip board 4",
-                prodDetails: "description of this product here i will write",
-                cardImage:"https://5.imimg.com/data5/SELLER/Default/2022/4/XW/GL/UG/46441495/promotional-mdf-clip-board-1000x1000.jpeg",
-                allProductImages: [{img:''}],
-                price:234,
-                discountedPrize: 190,
-                rating:4
+                prodName: "MDF Clip Board1",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/242025162.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/242025162.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/httpswww.batranovelties.com42024220-mdf-clip-board-without-box.htmlsrsltid%3DAfmBOoq-glpFCh6_NW-B28AVMwj-hwmrqHGua0JrWYqwLcIt0AhmGXsXnJs%26gQT%3D1.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%205x11.25-.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%208.75x11.875-.jpg'},    
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
             }
         ],
         img:'https://img.freepik.com/premium-photo/wooden-clipboard-with-blank-a4-paper-mockup-template-isolated-light-grey-background_942243-3386.jpg',

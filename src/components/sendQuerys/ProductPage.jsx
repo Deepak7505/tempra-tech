@@ -175,7 +175,6 @@ const ProductPage = () => {
                 Minimum Order Quantity For This Product Is {selectedProductDetails?.prodcutDetails?.minimumOrderquantity } PCS.
           </div>
 
-
         </div>
         </div>
 

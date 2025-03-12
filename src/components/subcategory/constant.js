@@ -104,7 +104,7 @@ export const subCategories = {
       name: "MDF Clip Board",
       parentCategory:"Paper Clip Board",
       id:"mdf-clip-board",
-      ProductList: categories[5].prodcutList,
+      ProductList: categories[5].productList2,
     },
     {
       name: "Plastic Clip Board",
