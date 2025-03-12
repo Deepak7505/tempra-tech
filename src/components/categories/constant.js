@@ -787,15 +787,53 @@ export const categories = [
                 cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/242025162.jpg",
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/242025162.jpg'},
-                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/httpswww.batranovelties.com42024220-mdf-clip-board-without-box.htmlsrsltid%3DAfmBOoq-glpFCh6_NW-B28AVMwj-hwmrqHGua0JrWYqwLcIt0AhmGXsXnJs%26gQT%3D1.jpg'},
-                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%205x11.25-.jpg'},
-                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%208.75x11.875-.jpg'},    
+                        
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00603',
+                prodName: "MDF Clip Board2",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/httpswww.batranovelties.com42024220-mdf-clip-board-without-box.htmlsrsltid%3DAfmBOoq-glpFCh6_NW-B28AVMwj-hwmrqHGua0JrWYqwLcIt0AhmGXsXnJs%26gQT%3D1.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/httpswww.batranovelties.com42024220-mdf-clip-board-without-box.htmlsrsltid%3DAfmBOoq-glpFCh6_NW-B28AVMwj-hwmrqHGua0JrWYqwLcIt0AhmGXsXnJs%26gQT%3D1.jpg'},   
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00604',
+                prodName: "MDF Clip Board3",
+                prodDetails: "205x11.25 –...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%205x11.25-.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%205x11.25-.jpg'},   
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:60
+                
+            },
+            {
+                prodId: '00605',
+                prodName: "MDF Clip Board4",
+                prodDetails: "208.75x11.875 –...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%208.75x11.875-.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/clip%20board/mdf%20board/mdf%20board%208.75x11.875-.jpg'},   
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
                 minimumOrderquantity:60
                 
             }
+            
         ],
         img:'https://img.freepik.com/premium-photo/wooden-clipboard-with-blank-a4-paper-mockup-template-isolated-light-grey-background_942243-3386.jpg',
     },

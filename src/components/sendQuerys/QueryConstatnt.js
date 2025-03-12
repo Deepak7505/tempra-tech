@@ -256,5 +256,17 @@ export const arrayOfProductIDs = [
     {
         id:'00602',
         prodcutDetails: categories[5].productList2[0],
+    },
+    {
+        id:'00603',
+        prodcutDetails: categories[5].productList2[1],
+    },
+    {
+        id:'00604',
+        prodcutDetails: categories[5].productList2[2],
+    },
+    {
+        id:'00605',
+        prodcutDetails: categories[5].productList2[3],
     }
  ];
