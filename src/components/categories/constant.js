@@ -17,7 +17,7 @@ export const categories = [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bottles-done/bottles-done/tempreture%20bottle%20image/OTHER/8.JPG'},
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bottles-done/bottles-done/tempreture%20bottle%20image/2-2.jpg'}  
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
                 minimumOrderquantity:60
                 
@@ -495,79 +495,39 @@ export const categories = [
         prodcutList : [
             {
                 prodId: '00301',
-                prodName: "Mug1",
-                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                prodName: "3 Tone Mug",
+                prodDetails: "High-quality ceramic for durability and heat retention...",
                 cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/1.pink.png",
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/1.pink.png'} ,
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/2.PNG'},
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/3.PNG'},
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/4.PNG'},
-                    // {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/5.PNG'}
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+
+                totalDiscription:"Upgrade your coffee or tea experience with this premium 3-Tone Mug, designed for both office and personal use. Crafted from high-quality ceramic, this mug is not only durable but also ensures excellent heat retention, keeping your beverages warm for longer.",
+
+                discriptionBlocks:[ "The three-tone design adds a modern touch, featuring a stylish contrast between the exterior, interior, and handle. The smooth glossy finish enhances the overall aesthetic, making it an attractive addition to any desk or kitchen.", "Designed for everyday convenience, this mug is microwave and dishwasher safe, ensuring effortless heating and cleaning. Its ergonomic handle provides a comfortable grip, making it ideal for both work environments and relaxing coffee breaks at home.", "This customizable mug is perfect for corporate gifting, allowing businesses to showcase their brand with logo printing, personalized text, or unique designs. Whether used for a professional setting or a thoughtful personal gift, the 3-Tone Mug is a stylish and practical choice." ],
+
+                arrayOfHeighlight: [
+                    "Material: High-quality ceramic for durability and heat retention",
+                    "Capacity: Standard 11oz (330ml) or customizable sizes",
+                    "Three-Tone Design: Contrasting interior, handle, and exterior for a stylish look",
+                    "Smooth Glossy Finish: Enhances print quality and aesthetic appeal",
+                    "Comfortable Grip: Ergonomically designed handle for easy holding",
+                    "Microwave & Dishwasher Safe: Convenient for daily use",
+                    "Customizable: Ideal for logo printing, branding, or personalized designs",
+                    "Perfect for Corporate Gifting: A great promotional item for businesses"
+                  ],
                 minimumOrderquantity:60
                 
             },
-            // {
-            //     prodId: '00302',
-            //     prodName: "Mug2",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/2.PNG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/2.PNG'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '00303',
-            //     prodName: "Mug3",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/3.PNG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/3.PNG'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '00304',
-            //     prodName: "Mug4",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/4.PNG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/4.PNG'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '00305',
-            //     prodName: "Mug5",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/5.PNG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/3%20TONE%20MUG/5.PNG'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },  
         ],
         prodcutList2 : [
             {
                 prodId: '00306',
-                prodName: "Mug6",
-                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                prodName: "AAA Grade Mug",
+                prodDetails: "Made from high-quality, durable ceramic for a smooth, glossy finish...",
                 cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/1.JPEG",
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/1.JPEG'},
@@ -575,53 +535,24 @@ export const categories = [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/4.JPEG'},
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/0022908_permasub-aaa-sublimation-white-mug-11oz.jpeg'}
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"A customized mug is more than just a drinkware item—it’s a personalized statement that adds a special touch to your daily routine. Whether for corporate branding, gifting, or personal use, a customized mug serves as a practical and stylish choice for enjoying your favourite beverages. ",
+
+                discriptionBlocks:[ "Designed to suit both office and home environments, these mugs offer a unique way to showcase company logos, inspirational quotes, artwork, or personal memories. They make excellent corporate gifts for employees and clients, helping businesses enhance brand recognition and foster lasting connections. For personal use, a customized mug can be a cherished item, featuring special moments, favourite designs, or meaningful messages.", "Ideal for coffee, tea, or any hot beverage, these mugs are crafted from high-quality ceramic, ensuring durability and a smooth, elegant finish. The customization process allows for vibrant, long-lasting prints, making each mug a unique and thoughtful gift option. Whether used in a professional setting to enhance brand identity or at home to add a personalized touch to your kitchen, a customized mug is a versatile and memorable choice." ],
+                arrayOfHeighlight:[
+                    "Premium AAA Grade Quality: Made from high-quality, durable ceramic for a smooth, glossy finish",
+                    "Size: 8 cm (diameter) x 9.5 cm (height)",
+                    "Capacity: 325 ml – ideal for coffee, tea, and other hot beverages",
+                    "Available in Multiple Colours: Choose from black, red, blue, green, and more for a unique touch",
+                    "Printable Area: 20 cm x 8 cm – perfect for printing logos, photos, or artwork",
+                    "Heat-Sensitive Coating: Changes from a solid dark colour to reveal the customized design when hot liquid is added",
+                    "Personalization: Custom prints available for corporate branding, gifts, or promotional use",
+                    "Comfortable Handle: Ergonomic design for an easy and secure grip",
+                    "Eco-Friendly & Reusable: Safe for daily use, reducing the need for disposable cups",
+                    "Care Instructions: Hand wash recommended to preserve the magic effect (not dishwasher or microwave safe)"
+                  ],
                 minimumOrderquantity:60
                 
             },
-            // {
-            //     prodId: '00307',
-            //     prodName: "Mug7",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/3.JPEG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/3.JPEG'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/0022908_permasub-aaa-sublimation-white-mug-11oz.jpeg'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '00308',
-            //     prodName: "Mug8",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/4.JPEG",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/4.JPEG'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/0022908_permasub-aaa-sublimation-white-mug-11oz.jpeg'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
-            // {
-            //     prodId: '00309',
-            //     prodName: "Mug9",
-            //     prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
-            //     cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/JPG.png",
-            //     allProductImages: [
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/JPG.png'},
-            //         {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/AAA%20GRADE/0022908_permasub-aaa-sublimation-white-mug-11oz.jpeg'} 
-            //     ],
-            //     totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-            //     arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-            //     minimumOrderquantity:60
-                
-            // },
             
         ],
         prodcutList3 : [
@@ -641,19 +572,129 @@ export const categories = [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mugs-half%20done/MAGIC%20MUG/7.JPEG'},
                 ],
                 totalDiscription:"The Color-Changing Magic Mug is a unique and innovative drinkware item that adds a surprise element to every sip. Designed with a special heat-sensitive coating, this mug transforms from a solid dark color to reveal a hidden design, logo, or message when filled with a hot beverage. Whether for corporate gifting, office use, or personal enjoyment, this mug creates a memorable experience every time.",
-                arrayOfHeighlight:["325 ml ceramic mug.", "Photos appear when hot liquid is added.", "Reverts to black when empty & at room temperature.", "Clean with a sponge. Do not scrub over the images.", "Magic Mugs can safely be used in both conventional and microwave ovens; however, they aren't dishwasher safe.",
+
+                discriptionBlocks:["For businesses looking to create a lasting impression, the Color-Changing Magic Mug is an excellent corporate gift. Customizable with company logos, slogans, or promotional messages, it is perfect for employee appreciation, client gifts, and brand promotions. The interactive transformation makes it an engaging and exciting item that reinforces brand visibility while adding a fun element to the recipient’s daily coffee or tea break.",
+                "For personal gifting, this mug is a delightful way to surprise loved ones. Whether customized with a favorite photo, an inspirational quote, or a heartfelt message, it makes birthdays, anniversaries, and special occasions even more memorable. The magic effect adds a touch of wonder, making it more than just an ordinary mug—it’s an experience!",
+                "Crafted from high-quality ceramic, the mug is designed for everyday use. With a 325 ml capacity, it is perfect for coffee, tea, or any hot beverage. The comfortable handle ensures a secure grip, while the smooth, glossy finish enhances its premium look and feel. ",
+                "To maintain its color-changing magic, hand washing is recommended to preserve the special heat-sensitive coating. It is not dishwasher or microwave safe, ensuring long-lasting vibrancy and functionality.",
+                "A Perfect Blend of Fun & Functionality", "Whether used in a corporate setting, as an office desk essential, or as a personalized gift for family and friends, the Color-Changing Magic Mug is a fantastic way to bring creativity and surprise into everyday moments. Its interactive nature, high-quality design, and customization options make it a truly special and unforgettable gift choice!"
                 ],
-                arryaOfSpecification: [
-                    "Capacity: 325 ml (standard size for coffee, tea, or other hot beverages)",
-                    "Material: High-quality durable ceramic with a smooth, glossy finish",
-                    "Colour-Changing Effect: Heat-sensitive coating hides the design when cold and reveals it when hot liquid is added",
-                    "Printable Area: 21.5 cm x 8 cm – large enough for high-quality logos, images, or text",
-                    "Customization: Can be personalized with company logos, inspirational quotes, photos, or creative artwork",
-                    "Comfortable Handle: Ergonomically designed for easy grip and comfortable use",
-                    "Eco-Friendly: Reusable and safe for daily use",
-                    "Care Instructions: Hand wash recommended to maintain the magic effect and longevity of the print (not dishwasher or microwave safe)"
+                
+                arrayOfHeighlight:[
+                    "325 ml ceramic mug",
+                    "Black exterior when empty and cool",
+                    "Photos appear when hot liquid is added",
+                    "Reverts to black when empty & at room temperature",
+                    "Clean with a sponge. Do not scrub over the images",
+                    "Magic Mugs can safely be used in both conventional and microwave ovens; however, they aren't dishwasher safe"
+                  ],
+                minimumOrderquantity:60
+                
+            },
+            
+        ],
+        prodcutList4 : [
+            {
+                prodId: '003011',
+                prodName: "A Grade Mug",
+                prodDetails: "Made from durable ceramic with a glossy finish...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/A%20GRADE/3.JPEG",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/A%20GRADE/3.JPEG'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/A%20GRADE/2.JPEG'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/A%20GRADE/eng_pl_White-mug-class-A-330-ml-Sublimation-Thermal-Transfer-100_2.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/A%20GRADE/eng_pl_White-mug-class-A-330-ml-Sublimation-Thermal-Transfer-100_3.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/A%20GRADE/httpsshop.bestsublimation24.euproduct-eng-100-White-mug-class-A-330-ml-Sublimation-Thermal-Transfer.htmlsrsltid%3DAfmBOoqDM3bSiiige5_ylqu-gNPqEOI5GXVKCh_GO1rj7yeANMIxxrCz.jpg'},
                 ],
-                arrayOfResons:[],
+                totalDiscription:"A customized mug is more than just a drinkware item—it’s a personalized statement that adds a special touch to your daily routine. Whether for corporate branding, gifting, or personal use, a customized mug serves as a practical and stylish choice for enjoying your favourite beverages. ",
+
+                discriptionBlocks:[ "Designed to suit both office and home environments, these mugs offer a unique way to showcase company logos, inspirational quotes, artwork, or personal memories. They make excellent corporate gifts for employees and clients, helping businesses enhance brand recognition and foster lasting connections. For personal use, a customized mug can be a cherished item, featuring special moments, favourite designs, or meaningful messages.", "Ideal for coffee, tea, or any hot beverage, these mugs are crafted from high-quality ceramic, ensuring durability and a smooth, elegant finish. The customization process allows for vibrant, long-lasting prints, making each mug a unique and thoughtful gift option. Whether used in a professional setting to enhance brand identity or at home to add a personalized touch to your kitchen, a customized mug is a versatile and memorable choice." ],
+
+                arrayOfHeighlight:[
+                    "Premium A Grade Quality: Made from durable ceramic with a glossy finish",
+                    "Size: 8 cm (diameter) x 9.5 cm (height)",
+                    "Capacity: 325 ml – perfect for coffee, tea, and other hot beverages",
+                    "Available in Multiple Colours: Choose from black, red, blue, green, and more for a unique touch",
+                    "Printable Area: 20 cm x 8 cm – ideal for logos, photos, or artwork",
+                    "Heat-Sensitive Coating: Reveals the hidden design when hot liquid is added",
+                    "Personalization: Fully customizable for corporate branding, gifting, or promotional use",
+                    "Comfortable Handle: Ergonomic design for a secure and easy grip",
+                    "Eco-Friendly & Reusable: A sustainable choice for everyday use",
+                    "Care Instructions: Hand wash recommended to maintain the colour-changing effect (not dishwasher or microwave safe)"
+                  ],
+                minimumOrderquantity:60
+                
+            },
+            
+        ],
+        prodcutList5 : [
+            {
+                prodId: '003012',
+                prodName: "Heart Handle Shape Mug",
+                prodDetails: "The Perfect Blend of Elegance & Functionality for Corporate, Office, and Personal Use...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/heart%20shape%20mug/eng_pl_Mug-Funny-with-heart-shaped-handle-Light-green-5667_2.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/heart%20shape%20mug/eng_pl_Mug-Funny-with-heart-shaped-handle-Light-green-5667_2.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/heart%20shape%20mug/eng_pl_Mug-Funny-with-heart-shaped-handle-light-blue-4105_1.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/heart%20shape%20mug/eng_pl_Mug-Funny-with-heart-shaped-handle-pink-4104_1.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/heart%20shape%20mug/eng_pl_Mug-Funny-with-heart-shaped-handle-red-4103_1.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/heart%20shape%20mug/httpsshop.bestsublimation24.euproduct-eng-4103-Mug-Funny-with-heart-shaped-handle-red.html.jpg'}
+                ],
+                totalDiscription:"Heart-Shaped Handle Mug – The Perfect Blend of Elegance & Functionality for Corporate, Office, and Personal Use The Heart-Shaped Handle Mug is a beautifully designed ceramic mug that combines charm, style, and practicality. Featuring a unique heart-shaped handle, this mug adds a special touch to every coffee break, making it ideal for corporate gifting, office use, and personal enjoyment.",
+
+                discriptionBlocks:["For businesses looking to leave a lasting impression, this mug serves as a stylish and thoughtful corporate gift. Its customizable surface allows for branding with company logos, motivational quotes, or creative artwork, making it an excellent choice for employee appreciation, client gifts, and promotional giveaways. The heart-shaped handle adds a touch of warmth, making the recipient feel valued and connected to the brand.",
+                "Crafted from high-quality ceramic, this mug is durable and designed for everyday use. It holds 325 ml of coffee, tea, or any hot beverage, making it a practical addition to any workspace or home. The ergonomic heart-shaped handle not only enhances its visual appeal but also provides a comfortable grip.", 
+                "Ideal for corporate, office, and personal use, the Heart-Shaped Handle Mug is a meaningful and functional gift that stands out with its unique design and customization options. Whether used as a promotional item, an office coffee mug, or a heartfelt present, it is sure to make a lasting impression."
+                ],
+
+                arrayOfHeighlight:[
+                    "Unique Heart-Shaped Handle: Adds a charming and elegant touch, perfect for gifting",
+                    "Premium Ceramic Material: Durable, high-quality finish with a smooth surface",
+                    "Capacity: 325 ml – ideal for coffee, tea, and other hot beverages",
+                    "Available in Various Colours: Choose from red, blue, black, pink, and more to match your style",
+                    "Printable Area: Perfect for logos, photos, quotes, or personalized artwork",
+                    "Customization: Ideal for corporate gifting, romantic presents, or special occasions",
+                    "Comfortable Grip: Ergonomic design for a secure and comfortable hold",
+                    "Eco-Friendly & Reusable: A sustainable and stylish alternative to disposable cups",
+                    "Care Instructions: Hand wash recommended for long-lasting durability (not dishwasher or microwave safe)"
+                  ],
+                minimumOrderquantity:60
+                
+            },
+            
+        ],
+        prodcutList6 : [
+            {
+                prodId: '003013',
+                prodName: "Metallic Mug",
+                prodDetails: "Sleek, stylish, and modern look for an elegant touch...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/metallic%20mug/1(httpswww.gingercrush.comcollectionsmomogramproductsinitial-name-mugvariant%3D41780881850442).jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/metallic%20mug/1(httpswww.gingercrush.comcollectionsmomogramproductsinitial-name-mugvariant%3D41780881850442).jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/metallic%20mug/2(httpswww.interflora.inp-signature-style-personalized-metallic-mug-gold-398366srsltid%3DAfmBOordWI2-wTkSVC0PnB7OwEjVmn3aekOYWp95btEKg6sXa2rsxGSJ).jpeg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/metallic%20mug/3.jpeg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/MUGS%20REMAINING/metallic%20mug/4.jpeg'}
+                ],
+                totalDiscription:"The Metallic Mug is a premium-quality drinkware item designed for those who appreciate style and sophistication in their daily coffee or tea routine. Featuring a sleek metallic finish, this mug adds a touch of luxury to any setting, making it an ideal choice for corporate gifting, office essentials, and personal use.",
+
+                discriptionBlocks:[ "For businesses looking to impress clients, employees, and partners, the Metallic Mug serves as a high-end corporate gift. Its glossy metallic surface provides a modern and luxurious look, while its customizable area allows for branding with company logos, taglines, or artwork. Perfect for promotional giveaways, corporate events, or employee appreciation, this mug ensures your brand stands out in a stylish and professional manner.",
+                "Enhance the office experience with a Metallic Mug that exudes sophistication. Whether used for morning coffee, afternoon tea, or a casual meeting, its shimmering finish makes it a conversation starter. Designed for durability and everyday use, it provides a premium feel while being a practical addition to any workspace.",
+                "For personal gifting, this mug offers an eye-catching and elegant alternative to traditional ceramic mugs. Available in a variety of colors such as gold, silver, bronze, and more, it can be customized with names, quotes, or meaningful designs, making it a thoughtful present for birthdays, anniversaries, and special occasions. The luxurious metallic finish adds a special touch that makes it stand out from ordinary mugs.",
+                "Crafted from high-quality ceramic with a metallic coating, this mug is designed to provide durability and a comfortable drinking experience. It holds 325 ml, making it ideal for all types of hot beverages. The ergonomic handle ensures a secure grip, and the smooth, glossy surface enhances the overall aesthetic appeal. To maintain its stunning metallic shine, hand washing is recommended, as it is not microwave or dishwasher safe due to its special coating.",
+                "Whether used as a corporate gift, office essential, or personalized keepsake, the Metallic Mug is a sophisticated and practical choice. Its premium finish, customization options, and high-quality craftsmanship make it a standout item that leaves a lasting impression."
+                ],
+                arrayOfHeighlight:[
+                    "High-Quality Metallic Finish: Sleek, stylish, and modern look for an elegant touch",
+                    "Material: Durable ceramic with a metallic coating for a premium feel",
+                    "Capacity: 325 ml – ideal for coffee, tea, and other beverages",
+                    "Available in Various Colors: Gold, silver, bronze, and more for a luxurious appearance",
+                    "Printable Area: Perfect for customizing with logos, quotes, or artwork",
+                    "Corporate & Personal Use: Ideal for business branding, office use, and personalized gifts",
+                    "Smooth & Glossy Surface: Enhances the shine and premium aesthetics",
+                    "Comfortable Handle: Ergonomically designed for an easy and secure grip",
+                    "Eco-Friendly & Reusable: A stylish alternative to disposable cups",
+                    "Care Instructions: Hand wash recommended to maintain the metallic shine (not dishwasher or microwave safe)"
+                  ],
                 minimumOrderquantity:60
                 
             },
@@ -724,8 +765,19 @@ export const categories = [
                 {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mouse%20pad-done/mouse%20pad-done/7.5x9%20inch/7.5x9%20inch-3.png'},
                
                 ],
-                totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
-                arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
+                totalDiscription:"Enhance your workspace with this premium 7.5 x 9-inch mousepad, designed for smooth and precise mouse movement. Crafted with a high-quality rubber base, it provides a firm grip on any surface, preventing unwanted slips during use.",
+                discriptionBlocks:["The 3mm thickness ensures optimal cushioning, offering comfort for extended work or gaming sessions. The soft fabric surface is designed for accurate mouse tracking, making it ideal for both optical and laser mice.",
+                    "Additionally, the mousepad is water-resistant and easy to clean, protecting against spills and dust. With optional stitched edges, it guarantees durability by preventing fraying over time.", "Perfect for corporate branding and promotional gifting, this mousepad can be customized with logos, designs, or messages, making it a great addition to any office or home setup."
+                ],
+                arrayOfHeighlight: [
+                    "Dimensions: 7.5 x 9 inches (19 x 23 cm)",
+                    "Thickness: 3mm – optimal cushioning for wrist comfort",
+                    "Material: High-quality rubber base for anti-slip stability",
+                    "Surface: Smooth fabric for precise mouse tracking & effortless gliding",
+                    "Durability: Resistant to wear & tear, with optional stitched edges",
+                    "Water-Resistant & Easy to Clean: Protects against spills and dust",
+                    "Customization: Perfect for corporate branding, logos & promotional gifting"
+                  ],
                 subcat:"ss-bottle",
                 minimumOrderquantity:60
 
@@ -744,9 +796,19 @@ export const categories = [
                 {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mouse%20pad-done/mouse%20pad-done/11x23%20inch/11x23%20inch-4.jpg'},
                 {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/mouse%20pad-done/mouse%20pad-done/11x23%20inch/11x23%20inch-5.jpg'},
                 ],
-                totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
-                arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
-                subcat:"ss-bottle",
+                totalDiscription:"Upgrade your workspace with this large 11 x 23-inch mousepad, designed for smooth and effortless mouse movement. This extended-size mousepad provides ample space for both your keyboard and mouse, making it ideal for gaming, office work, and professional setups.",
+                discriptionBlocks:["The high-quality rubber base ensures a firm, anti-slip grip, preventing unwanted movement during intense tasks. Its 3mm thickness offers just the right amount of cushioning for wrist comfort while maintaining durability for long-term use.", "The smooth fabric surface enhances precise tracking and quick gliding, making it perfect for both optical and laser mice. Additionally, the water-resistant and easy-to-clean design protects against spills, dust, and everyday wear. The optional stitched edges add to the durability, preventing fraying over time.", "This mousepad is also a great choice for corporate branding and promotional gifting, as it can be customized with logos, designs, or brand messages."],
+                arrayOfHeighlight:[
+                    "Dimensions: 11 x 23 inches (28 x 58 cm) – ideal for extended desk coverage",
+                    "Thickness: 3mm – provides comfort and durability for long-term use",
+                    "Material: High-quality rubber base for a firm, anti-slip grip on any surface",
+                    "Surface: Smooth fabric for precise mouse tracking and effortless movement",
+                    "Extended Size: Perfect for both keyboard and mouse, enhancing workspace efficiency",
+                    "Durability: Wear-resistant with optional stitched edges to prevent fraying",
+                    "Water-Resistant & Easy to Clean: Protects against spills, dust, and stains",
+                    "Customization: Suitable for corporate branding, logos & promotional gifting"
+                  ],
+                subcat:"mouse-pad",
                 minimumOrderquantity:60
 
             }
@@ -850,8 +912,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/14.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -863,8 +934,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/16.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -876,8 +956,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/18.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -889,8 +978,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/20.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -902,8 +1000,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/22.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -915,8 +1022,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/42.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -928,8 +1044,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/46.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -941,8 +1066,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/50.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -954,8 +1088,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/52.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -967,8 +1110,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/60.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -980,8 +1132,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/62.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -993,8 +1154,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/64.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1006,8 +1176,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/66.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, transparent acrylic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for durability and a premium feel",
+                    "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                    "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                    "Customizable: Perfect for engraving, UV printing, or logo branding",
+                    "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                    "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1019,8 +1198,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/68.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -1032,8 +1220,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/70.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -1045,8 +1242,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/74.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -1058,8 +1264,17 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/acrylic/8.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
+                arrayOfHeighlight: [
+                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Material: High-quality, transparent acrylic for a sleek and modern look",
+                "Thickness: Typically 15-25mm for durability and a premium feel",
+                "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
+                "Lightweight Yet Sturdy: Provides stability to keep papers in place without being too heavy",
+                "Customizable: Perfect for engraving, UV printing, or logo branding",
+                "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
+                "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
+                ],
                 minimumOrderquantity:60
                 
             },
@@ -1074,8 +1289,18 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/plastic/128.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
+                discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, durable plastic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for a sturdy and premium feel",
+                    "Lightweight Yet Stable: Keeps papers secure without excessive weight",
+                    "Smooth & Polished Finish: Offers a stylish and professional appearance",
+                    "Customizable: Ideal for logo printing, engraving, or branding",
+                    "Scratch & Shatter-Resistant: Designed for long-lasting durability",
+                    "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1087,8 +1312,18 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/plastic/134.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"TEnhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
+                discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, durable plastic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for a sturdy and premium feel",
+                    "Lightweight Yet Stable: Keeps papers secure without excessive weight",
+                    "Smooth & Polished Finish: Offers a stylish and professional appearance",
+                    "Customizable: Ideal for logo printing, engraving, or branding",
+                    "Scratch & Shatter-Resistant: Designed for long-lasting durability",
+                    "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1100,8 +1335,18 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/plastic/144.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
+                discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, durable plastic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for a sturdy and premium feel",
+                    "Lightweight Yet Stable: Keeps papers secure without excessive weight",
+                    "Smooth & Polished Finish: Offers a stylish and professional appearance",
+                    "Customizable: Ideal for logo printing, engraving, or branding",
+                    "Scratch & Shatter-Resistant: Designed for long-lasting durability",
+                    "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1113,8 +1358,18 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/plastic/149.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
+                discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, durable plastic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for a sturdy and premium feel",
+                    "Lightweight Yet Stable: Keeps papers secure without excessive weight",
+                    "Smooth & Polished Finish: Offers a stylish and professional appearance",
+                    "Customizable: Ideal for logo printing, engraving, or branding",
+                    "Scratch & Shatter-Resistant: Designed for long-lasting durability",
+                    "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1126,8 +1381,18 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/plastic/78.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
+                discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, durable plastic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for a sturdy and premium feel",
+                    "Lightweight Yet Stable: Keeps papers secure without excessive weight",
+                    "Smooth & Polished Finish: Offers a stylish and professional appearance",
+                    "Customizable: Ideal for logo printing, engraving, or branding",
+                    "Scratch & Shatter-Resistant: Designed for long-lasting durability",
+                    "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
+                    ],
                 minimumOrderquantity:60
                 
             },
@@ -1139,8 +1404,18 @@ export const categories = [
                 allProductImages: [
                     {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/Paper%20Weight/plastic/94.png'} 
                 ],
-                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
+                discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
+                arrayOfHeighlight: [
+                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Material: High-quality, durable plastic for a sleek and modern look",
+                    "Thickness: Typically 15-25mm for a sturdy and premium feel",
+                    "Lightweight Yet Stable: Keeps papers secure without excessive weight",
+                    "Smooth & Polished Finish: Offers a stylish and professional appearance",
+                    "Customizable: Ideal for logo printing, engraving, or branding",
+                    "Scratch & Shatter-Resistant: Designed for long-lasting durability",
+                    "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
+                    ],
                 minimumOrderquantity:60
                 
             },

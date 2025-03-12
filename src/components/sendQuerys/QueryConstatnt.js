@@ -231,13 +231,13 @@ export const arrayOfProductIDs = [
         prodcutDetails: categories[2].prodcutList3[0],
     },{
         id: '003011',
-        prodcutDetails: categories[2].prodcutList3[1],
+        prodcutDetails: categories[2].prodcutList4[0],
     },{
         id: '003012',
-        prodcutDetails: categories[2].prodcutList3[2],
+        prodcutDetails: categories[2].prodcutList5[0],
     },{
         id: '003013',
-        prodcutDetails: categories[2].prodcutList3[3],
+        prodcutDetails: categories[2].prodcutList6[0],
     },{
         id: '003014',
         prodcutDetails: categories[2].prodcutList3[4],

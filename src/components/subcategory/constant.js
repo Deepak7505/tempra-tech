@@ -46,7 +46,7 @@ export const subCategories = {
       name: "A Grade Mug",
       parentCategory:"Mugs",
       id:"a-grade-mug",
-      ProductList: categories[2].prodcutList,
+      ProductList: categories[2].prodcutList4,
     },
     {
       name: "AAA Grade Mug",
@@ -56,7 +56,7 @@ export const subCategories = {
     {
       name: "Heart Handle Shape Mug",
       id:"heart-handle-shape-mug",
-      ProductList: categories[2].prodcutList,
+      ProductList: categories[2].prodcutList5,
     },
     {
       name: "Megic Mug",
@@ -66,7 +66,7 @@ export const subCategories = {
     {
       name: "Metellic Mug",
       id:"metellic-mug",
-      ProductList: categories[2].prodcutList,
+      ProductList: categories[2].prodcutList6,
     }, 
     {
       name: "3 Tone Mug",

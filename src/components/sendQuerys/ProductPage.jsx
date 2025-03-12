@@ -34,15 +34,6 @@ const ProductPage = () => {
   };
 
 
-  const sizes = ["S", "M", "L", "XL"];
-  const colors = [
-    { name: "Red", code: "#D20404" },
-    { name: "Blue", code: "#142C73" },
-    { name: "Green", code: "#198754" },
-    { name: "Black", code: "#000000" },
-  ];
-  const [selectedColor, setSelectedColor] = useState(null);
-
   return (
     <div className=" bg-gray-50 ">
       
@@ -181,10 +172,10 @@ const ProductPage = () => {
       {/* Accordion */}
       <div className="mt-8 bg-gray-100 px-4 py-4 pb-14">
         <h1 className='text-center pb-5 text-xl font-semibold'>About this item</h1>
-          <details open className=" rounded-sm p-4 md:h-[40rem] bg-gray-50">
+          <details open className={`rounded-sm p-4  ${ selectedProductDetails?.prodcutDetails?.discriptionBlocks ? 'md:h-full md:pb-40' : 'md:h-[40rem] md:pb-20'} bg-gray-50`}>
             <summary className="font-semibold cursor-pointer">Product Details</summary>
             <div className="grid grid-cols-2 gap-10 mt-2 ">
-              <div className='border-r-2 h-[34rem] pr-4'>
+              <div className='border-r-2 h-full pr-4'>
                 <h1 className="font-bold text-lg mb-2">Product Highlights</h1>
                 <ul className="list-disc space-y-5 pl-6 text-justify">
                 {
@@ -208,6 +199,20 @@ const ProductPage = () => {
                 
                 }
                 </p>
+
+                {
+                  selectedProductDetails?.prodcutDetails?.discriptionBlocks &&  (
+                    
+                  <ul className="text-justify space-y-6 gap-2 text-gray-700 font-semibold">
+                    {
+                      selectedProductDetails?.prodcutDetails?.discriptionBlocks.map(( item, ind ) => {
+                        return ( <li className='text-gray-700 text-justify list-none font-semibold' key={ind}>{item}</li>)
+                    })
+                    }
+                  </ul>
+                  )
+                }
+
               </div>
             </div>
           </details>
