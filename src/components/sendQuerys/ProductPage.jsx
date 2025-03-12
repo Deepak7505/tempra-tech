@@ -6,6 +6,7 @@ import RotatingDisclaimer from './RotatingDisclaimer';
 import { arrayOfProductIDs } from "./QueryConstatnt";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import VibratingBall from './VibratingBall';
+import { faArrowLeft, faLeftRight } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -42,9 +43,8 @@ const ProductPage = () => {
         onClick={() => window.history.back()}
           className="flex items-center px-8 py-3 text-white text-xl bg-indigo-600 transition-all duration-500 shadow-[6px_6px_0px_black] skew-x-[-15deg] border-none cursor-pointer hover:shadow-[10px_10px_0px_#fbc638] focus:outline-none"
         >
-          <span className="skew-x-[15deg]">BACK</span>
-          <span className="w-5 ml-7 relative top-[12%] transition-all duration-500 group-hover:mr-11">
-            <svg
+          <span className="skew-x-[15deg] ">
+            {/* <svg
               width="50px"
               height="20px"
               viewBox="0 0 66 43"
@@ -67,8 +67,12 @@ const ProductPage = () => {
                   fill="white"
                 />
               </g>
-            </svg>
+            </svg> */}
+          
+
+            <FontAwesomeIcon icon={faArrowLeft} />
           </span>
+          <span className="w-12 ml-5 relative top-[12%] transition-all duration-500 group-hover:mr-11">BACK</span>
         </button>
         <div className='flex w-3/4 justify-center md:pl-40 '>
           <RotatingDisclaimer />
