@@ -41,7 +41,7 @@ export const footerDataRow2 = [
 
 export const aboutComData = [
     {
-        text:"support@tempra.com",
+        text:"info@tempra.in",
         icon:faMailBulk,
         key:"Email",
         heading:"Contact Us"

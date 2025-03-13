@@ -34,11 +34,6 @@ export const subCategories = {
       id:"rectangular",
       ProductList: categories[1].prodcutList2,
     },
-    // {
-    //   name: "Square",
-    //   id:"square",
-    //   ProductList: categories[1].prodcutList,
-    // }
   ],
 
   mugs: [
@@ -87,13 +82,13 @@ export const subCategories = {
 
   mousePad: [
     {
-      name: "7.9 * 9 Inch Mouse Pad",
+      name: "Small Mouse Pad( 7.9 x 9 )",
       parentCategory:"Mouse Pad",
       id:"7.9-9-inch-mouse-pad",
       ProductList: categories[4].prodcutList,
     },
     {
-      name: "11 * 23 Inch Mouse Pad",
+      name: "Large Mouse Pad( 11 x 23 )",
       id:"11-23-inch-mouse-pad",
       ProductList: categories[4].prodcutList2,
     }

@@ -17,7 +17,7 @@ const ImageZoom = ({ src, alt }) => {
   return (
     <div
       ref={containerRef}
-      className="relative overflow-hidden w-[40rem] h-[36rem] bg-white  border rounded-xl shadow-md"
+      className="relative overflow-hidden w-[40rem] h-[36rem] bg-white p-4  border rounded-xl shadow-md"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
@@ -25,9 +25,9 @@ const ImageZoom = ({ src, alt }) => {
       <img
         src={src}
         alt={alt}
-        className=" w-[40rem] h-[36rem] transition-transform rounded-xl duration-200"
+        className=" w-[38rem] h-[34rem] transition-transform rounded-xl duration-200 cursor-zoom-in"
         style={{
-          transform: zoom ? `scale(2)`: 'scale(1) ',
+          transform: zoom ? `scale(1.5)`: 'scale(1) ',
           transformOrigin: `${position.x}% ${position.y}%`,
         }}
       />

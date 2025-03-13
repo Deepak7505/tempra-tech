@@ -135,7 +135,7 @@ export const arrayOfProductIDs = [
     },
     {
         id: '00201',
-        prodcutDetails: categories[1].prodcutList2[0],
+        prodcutDetails: categories[1].prodcutList[0],
     },
     {
         id: '00202',

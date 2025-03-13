@@ -115,12 +115,12 @@ export const categorieDropdown_data = [
       categoryName: "Mouse Pad",
       subCategories: [
         {
-          subcategoriName: "Small Mouse Pad (7.9 * 9)",
+          subcategoriName: "Small Mouse Pad (7.9 x 9)",
           id:"7.9-9-inch-mouse-pad",
           route: "/categories/mousePad",
         },
         {
-          subcategoriName: "Large Mouse Pad (11 * 23)",
+          subcategoriName: "Large Mouse Pad (11 x 23)",
           id:"11-23-inch-mouse-pad",
           route: "/categories/mousePad",
         },

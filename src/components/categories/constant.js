@@ -19,7 +19,7 @@ export const categories = [
                 ],
                 totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
         ],
@@ -39,7 +39,7 @@ export const categories = [
                 totalDiscription:"Single Wall Dori Water Bottle – Premium Matte Black Finish Stay hydrated in style with the Single Wall Dori Water Bottle, designed for those who appreciate elegance and functionality. Made from high-quality stainless steel, this bottle features a sleek matte black finish that adds a touch of sophistication. Its leak-proof lid ensures no spills, while the BPA-free material guarantees safe and eco-friendly use.",
                 arrayOfHeighlight:["Single Wall  Dori Water Bottle With Premium Quality", "Matt Finish With Black Color", "Leak Proof Lid & BPA Free", "Stainless Steel With Elegant Design","Round Shape & Widen Mouth", "Capacity : 750ml" ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -57,7 +57,7 @@ export const categories = [
                 totalDiscription:"A perfect blend of durability and elegance, this Metal Water Bottle features a matte black finish for a sleek and modern look. Designed with a colored plastic cap and a convenient silicone strap, it’s easy to carry wherever you go.With a 750ml capacity, this bottle is ideal for staying hydrated throughout the day. The engraved branding appears in a striking silver color, adding a premium touch—making it an excellent choice for corporate gifting and promotional giveaways.",
                 arrayOfHeighlight:[ "Premium Metal Construction – Durable and long-lasting.", "Matte Black Finish – Sleek and stylish design. Colored Plastic Cap with Silicone Strap – Easy to carry.", "750ml Capacity – Perfect for daily hydration.", "Engraving in Silver – Gives a high-end, professional look.", "Great for Promotions – Ideal for corporate branding and giveaways." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -75,7 +75,7 @@ export const categories = [
 
                 arrayOfHeighlight:[ "Ultra-Lightweight (65g) – Easy to carry without extra bulk.", "500ml Capacity – Ideal for staying hydrated throughout the day.", "Premium White Aluminum – Durable and stylish.", "Carabiner Clip – Convenient attachment for backpacks or belts.","Sleek & Compact Design – Perfect for travel, sports, and office use.", "Great for Corporate Branding – Ideal for promotional gifts and giveaways" ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -92,7 +92,7 @@ export const categories = [
                 totalDiscription:"Stay refreshed on the go with this high-quality vacuum-insulated stainless steel sport bottle. Designed to keep liquids hot for up to 10 hours and cold for an impressive 30 hours, this thermos tumbler is perfect for outdoor activities, sports, travel, and daily use. The durable stainless steel interior ensures excellent heat preservation and impact resistance, making it ideal for both beverages and soups. With a strong sealing mechanism, spills and leaks are never a concern.",
                 arrayOfHeighlight:["Vacuum Insulation – Maintains temperature for hours (hot: 10h, cold: 30h).", "Premium Stainless Steel – Durable, impact-resistant, and long-lasting.", "550ml Capacity – Perfect size for hydration on the go.", "Multi-Purpose Use – Ideal for beverages and food like soup","Strong Sealing & Leak-Proof – Ensures mess-free usage.", "Sleek & Stylish Design – A modern and practical choice." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -107,7 +107,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             }
         ],
@@ -125,7 +125,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -144,7 +144,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -160,7 +160,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -176,7 +176,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -193,7 +193,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             },
             {
@@ -210,7 +210,7 @@ export const categories = [
                 totalDiscription:"The Duro Steel Stainless Steel Water Bottle is a durable and versatile hydration solution designed for everyday use. Crafted from high-quality stainless steel, this 1-liter bottle features a sleek silver finish with a plain yet elegant design. Its single-wall construction makes it lightweight and ideal for storing in the fridge or freezer, ensuring your water stays cool for longer. Whether you're at home, the office, the gym, or traveling, this bottle is a reliable and eco-friendly companion for staying hydrated.",
                 arrayOfHeighlight:["Premium Stainless Steel – Durable, rust-resistant, and long-lasting.", "1000ml Capacity – Ample size for all-day hydration.", "Lightweight & Easy to Carry – Perfect for daily use and travel.", "Fridge & Freezer Friendly – Keeps water cool for longer.","Leak-Proof & BPA-Free – Safe, non-toxic, and spill-free design.", "Simple & Elegant Design – Suitable for home, office, and outdoor use." ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             }
         ],
@@ -232,7 +232,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -245,7 +245,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -258,7 +258,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -271,7 +271,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -284,7 +284,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -297,7 +297,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -310,7 +310,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -323,7 +323,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -336,7 +336,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -349,7 +349,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -362,7 +362,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -375,7 +375,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -388,7 +388,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -401,7 +401,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             }
         ],
@@ -417,7 +417,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -430,7 +430,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -443,7 +443,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -456,7 +456,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -469,7 +469,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -482,7 +482,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             }
         ],
@@ -519,7 +519,7 @@ export const categories = [
                     "Customizable: Ideal for logo printing, branding, or personalized designs",
                     "Perfect for Corporate Gifting: A great promotional item for businesses"
                   ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
         ],
@@ -550,7 +550,7 @@ export const categories = [
                     "Eco-Friendly & Reusable: Safe for daily use, reducing the need for disposable cups",
                     "Care Instructions: Hand wash recommended to preserve the magic effect (not dishwasher or microwave safe)"
                   ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
@@ -588,7 +588,7 @@ export const categories = [
                     "Clean with a sponge. Do not scrub over the images",
                     "Magic Mugs can safely be used in both conventional and microwave ovens; however, they aren't dishwasher safe"
                   ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
@@ -622,7 +622,7 @@ export const categories = [
                     "Eco-Friendly & Reusable: A sustainable choice for everyday use",
                     "Care Instructions: Hand wash recommended to maintain the colour-changing effect (not dishwasher or microwave safe)"
                   ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
@@ -658,7 +658,7 @@ export const categories = [
                     "Eco-Friendly & Reusable: A sustainable and stylish alternative to disposable cups",
                     "Care Instructions: Hand wash recommended for long-lasting durability (not dishwasher or microwave safe)"
                   ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
@@ -695,7 +695,7 @@ export const categories = [
                     "Eco-Friendly & Reusable: A stylish alternative to disposable cups",
                     "Care Instructions: Hand wash recommended to maintain the metallic shine (not dishwasher or microwave safe)"
                   ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
@@ -779,7 +779,7 @@ export const categories = [
                     "Customization: Perfect for corporate branding, logos & promotional gifting"
                   ],
                 subcat:"ss-bottle",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             }
             
@@ -809,7 +809,7 @@ export const categories = [
                     "Customization: Suitable for corporate branding, logos & promotional gifting"
                   ],
                 subcat:"mouse-pad",
-                minimumOrderquantity:60
+                minimumOrderquantity:100
 
             }
             
@@ -836,8 +836,8 @@ export const categories = [
                     
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
-                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
                 
             }
         ],
@@ -853,7 +853,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -866,7 +866,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -879,7 +879,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -892,7 +892,7 @@ export const categories = [
                 ],
                 totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
                 arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             }
             
@@ -914,7 +914,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 83 x 58 mm, Prininting Size = 83 x 58 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -923,7 +923,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -936,7 +936,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 88 x 48 mm, Prininting Size = 88 x 48 mm, Thickness = 16 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -945,7 +945,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -958,7 +958,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 73 x 73 mm, Prininting Size = 73 x 73 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -967,7 +967,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -980,7 +980,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 73 x 73 mm, Prininting Size = 73 x 73 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -989,7 +989,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1002,7 +1002,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 60 x 60 mm, Prininting Size = 60 x 60 mm, Thickness = 20 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1011,7 +1011,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1024,7 +1024,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 70 x 70 mm, Prininting Size = 70 x 70 mm, Thickness = 20 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1033,7 +1033,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1046,7 +1046,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 87 x 87 mm, Prininting Size = 87 x 87 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1055,7 +1055,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1068,7 +1068,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 73 x 73 mm, Prininting Size = 73 x 73 mm, Thickness = 20 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1077,7 +1077,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1090,7 +1090,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 88 x 74 mm, Prininting Size = 88 x 74 mm, Thickness = 20 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1099,7 +1099,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1112,7 +1112,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 100 x 80 mm, Prininting Size = 100 x 80 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1121,7 +1121,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1134,7 +1134,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 80 x 74 mm, Prininting Size = 80 x 74 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1143,7 +1143,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1156,7 +1156,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 100 x 85 mm, Prininting Size = 100 x 85 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1165,7 +1165,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1178,7 +1178,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Area = 78 x 76 mm, Prininting Size = 78 x 76 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                     "Material: High-quality, transparent acrylic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for durability and a premium feel",
                     "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1187,7 +1187,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                     "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1200,7 +1200,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 68 x 82 mm, Prininting Size = 68 x 82 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1209,7 +1209,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1222,7 +1222,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 90 x 60 mm, Prininting Size = 90 x 60 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1231,7 +1231,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1244,7 +1244,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 100 x 50 mm, Prininting Size = 100 x 50 mm, Thickness = 12 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1253,7 +1253,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1266,7 +1266,7 @@ export const categories = [
                 ],
                 totalDiscription:"Add a touch of sophistication to your workspace with this premium acrylic paperweight. Crafted from high-quality, transparent acrylic, it offers a crystal-clear, glass-like finish while being lightweight yet sturdy. Designed to keep papers neatly in place, this paperweight is both functional and stylish, making it a perfect addition to office desks, conference rooms, and corporate settings. With a smooth, polished surface, it resists scratches and shattering, ensuring long-lasting durability. Its sleek and modern design makes it an excellent corporate gift or promotional item, as it can be fully customized with UV printing, laser engraving, or logo branding. Ideal for professionals, executives, and businesses looking to elevate their brand identity, this acrylic paperweight is a practical and eye-catching desktop accessory.",
                 arrayOfHeighlight: [
-                "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                "Dimensions: Available in various sizes (Product Area = 100 x 45 mm, Prininting Size = 100 x 45 mm, Thickness = 10 mm, Printing = Double Side, Packing = Ploy)",
                 "Material: High-quality, transparent acrylic for a sleek and modern look",
                 "Thickness: Typically 15-25mm for durability and a premium feel",
                 "Crystal-Clear Finish: Offers a glass-like appearance with superior clarity",
@@ -1275,7 +1275,7 @@ export const categories = [
                 "Scratch & Shatter-Resistant: Long-lasting durability with a polished finish",
                 "Multipurpose Use: Ideal for office desks, corporate gifting, and promotional displays"
                 ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
@@ -1292,7 +1292,7 @@ export const categories = [
                 totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Size = 102 x 84 x 17 mm, Prininting Size = 73 x 73 mm, Approx Weight = 105 - 110 gms, Printing = Single Side, Packing = Box Packing)",
                     "Material: High-quality, durable plastic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for a sturdy and premium feel",
                     "Lightweight Yet Stable: Keeps papers secure without excessive weight",
@@ -1301,7 +1301,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Designed for long-lasting durability",
                     "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1315,7 +1315,7 @@ export const categories = [
                 totalDiscription:"TEnhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Size = 85 x 85 x 17 mm, Prininting Size = 62 (Round) mm, Approx Weight = 80 - 85 gms, Printing = Both Side, Packing = Box Packing)",
                     "Material: High-quality, durable plastic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for a sturdy and premium feel",
                     "Lightweight Yet Stable: Keeps papers secure without excessive weight",
@@ -1324,7 +1324,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Designed for long-lasting durability",
                     "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1338,7 +1338,7 @@ export const categories = [
                 totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Size = 86 x 56 x 16 mm, Prininting Size = 64 x 34 mm, Approx Weight = 80 gms, Printing = Both Side, Packing = Box Packing)",
                     "Material: High-quality, durable plastic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for a sturdy and premium feel",
                     "Lightweight Yet Stable: Keeps papers secure without excessive weight",
@@ -1347,7 +1347,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Designed for long-lasting durability",
                     "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1361,7 +1361,7 @@ export const categories = [
                 totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Size = 87 x 87 x 16 mm, Prininting Size = 49 x 49 mm, Approx Weight = 85 gms, Printing = Both Side, Packing = Box Packing)",
                     "Material: High-quality, durable plastic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for a sturdy and premium feel",
                     "Lightweight Yet Stable: Keeps papers secure without excessive weight",
@@ -1370,7 +1370,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Designed for long-lasting durability",
                     "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1384,7 +1384,7 @@ export const categories = [
                 totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Size = 96 x 121 mm, Prininting Size = 83 x 114 mm, Approx Weight = 135 - 140 gms, Printing = Single Side, Packing = Box Packing)",
                     "Material: High-quality, durable plastic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for a sturdy and premium feel",
                     "Lightweight Yet Stable: Keeps papers secure without excessive weight",
@@ -1393,7 +1393,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Designed for long-lasting durability",
                     "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             {
@@ -1407,7 +1407,7 @@ export const categories = [
                 totalDiscription:"Enhance your workspace with this sleek and durable plastic paperweight, designed to keep your documents neatly in place while adding a professional touch to your desk. Made from high-quality plastic, it is lightweight yet stable, ensuring functionality without unnecessary bulk.",
                 discriptionBlocks:["The smooth, polished finish gives it a modern and elegant look, making it an ideal choice for office use, corporate gifting, and promotional branding. Resistant to scratches and shattering, this paperweight is built for long-lasting durability.", "Perfect for customization, it can be personalized with logos, text, or designs using UV printing, engraving, or embossing, making it an excellent corporate giveaway or promotional item."],
                 arrayOfHeighlight: [
-                    "Dimensions: Available in various sizes (e.g., 3x3 inches, 4x4 inches, or custom)",
+                    "Dimensions: Available in various sizes (Product Size = 61 x 61 x 67 mm, Prininting Size = 52 x 52 mm, Approx Weight = 150 - 200 gms, Printing = Five Side, Packing = Box Packing)",
                     "Material: High-quality, durable plastic for a sleek and modern look",
                     "Thickness: Typically 15-25mm for a sturdy and premium feel",
                     "Lightweight Yet Stable: Keeps papers secure without excessive weight",
@@ -1416,7 +1416,7 @@ export const categories = [
                     "Scratch & Shatter-Resistant: Designed for long-lasting durability",
                     "Multipurpose Use: Perfect for office desks, corporate gifting, and promotional giveaways"
                     ],
-                minimumOrderquantity:60
+                minimumOrderquantity:100
                 
             },
             
