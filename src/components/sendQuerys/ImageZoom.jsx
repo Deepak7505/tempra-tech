@@ -22,7 +22,7 @@ const ImageZoom = ({ src, alt }) => {
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
     >
-      {/* w-[38rem] h-[34rem] */}
+
       <img
         src={src}
         alt={alt}
