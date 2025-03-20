@@ -149,4 +149,12 @@ export const subCategories = {
       ProductList: categories[7].prodcutList,
     },
   ],
+  bags: [
+    {
+      name: "Bags",
+      parentCategory:"Bags",
+      id:"bags",
+      ProductList: categories[8].prodcutList,
+    }
+  ]
 };

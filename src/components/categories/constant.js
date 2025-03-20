@@ -1641,7 +1641,173 @@ export const categories = [
             }
         ],
         img:'https://image.freepik.com/free-psd/black-metal-pen-grey-mockup-template-your-design_34168-1302.jpg',
-    }
+    },
+    {
+        categoryName: "Bags",
+        id:"bags",
+        icon: faBox,
+        prodcutList : [
+            {
+                prodId: '00901',
+                prodName: "Bag1",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/1httpswww.flipkart.comhp-most-popular-college-office-27-l-laptop-backpackpitmd1979f39ed41apid%3DBKPFYY7FAXHPPZNY%26lid%3DLSTBKPFYY7FAXHPPZNYTEGNZY%26marketplace%3DFLIP/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/1httpswww.flipkart.comhp-most-popular-college-office-27-l-laptop-backpackpitmd1979f39ed41apid%3DBKPFYY7FAXHPPZNY%26lid%3DLSTBKPFYY7FAXHPPZNYTEGNZY%26marketplace%3DFLIP/1.jpeg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/1httpswww.flipkart.comhp-most-popular-college-office-27-l-laptop-backpackpitmd1979f39ed41apid%3DBKPFYY7FAXHPPZNY%26lid%3DLSTBKPFYY7FAXHPPZNYTEGNZY%26marketplace%3DFLIP/2.jpeg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/1httpswww.flipkart.comhp-most-popular-college-office-27-l-laptop-backpackpitmd1979f39ed41apid%3DBKPFYY7FAXHPPZNY%26lid%3DLSTBKPFYY7FAXHPPZNYTEGNZY%26marketplace%3DFLIP/3.jpeg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/1httpswww.flipkart.comhp-most-popular-college-office-27-l-laptop-backpackpitmd1979f39ed41apid%3DBKPFYY7FAXHPPZNY%26lid%3DLSTBKPFYY7FAXHPPZNYTEGNZY%26marketplace%3DFLIP/4.jpeg'}
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00902',
+                prodName: "Bag2",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/6.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/6.jpeg'} ,
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/1.jpeg"},
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/2.jpeg"},
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/3.jpeg"},
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/4.jpeg"},
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/2.httpswww.flipkart.comjairaj-backpack-men-bags-bagpack-37-l-laptoppitm497e2b52100d5pid%3DBKPH93GYR2QKQDEV%26lid%3DLSTBKPH93GYR2QKQDEVGK38OM%26marketplace%3DFLIPKART%26s/5.jpeg"}
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00903',
+                prodName: "Bag3",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/1.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/2.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/3.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/4.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/5.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/3(httpscdn.fcglcdn.combrainbeesimagesproducts583x72015965174a.webp/6.jpeg'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00904',
+                prodName: "Bag4",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/1.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/2.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/Pitthu-Grey-Teal-Backpack-SDL818324672-1-40920.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/Pitthu-Grey-Teal-Backpack-SDL818324672-4-1fc2d.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/Pitthu-Grey-Teal-Backpack-SDL818324672-5-50065.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/Pitthu-Grey-Teal-Backpack-SDL818324672-6-2cd31.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/Pitthu-Grey-Teal-Backpack-SDL818324672-7-8ef65.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/4(httpswww.snapdeal.comproductpitthu-grey-teal-backpack631698262259/Pitthu-Grey-Teal-Backpack-SDL818324672-8-1637e.jpg'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00905',
+                prodName: "Bag5",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/5(httpswww.flipkart.comcompanion-dragon-box-34-l-backpackpitmb87/black/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/5(httpswww.flipkart.comcompanion-dragon-box-34-l-backpackpitmb87/black/1.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/5(httpswww.flipkart.comcompanion-dragon-box-34-l-backpackpitmb87/black/2.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/5(httpswww.flipkart.comcompanion-dragon-box-34-l-backpackpitmb87/black/3.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/5(httpswww.flipkart.comcompanion-dragon-box-34-l-backpackpitmb87/black/4.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/5(httpswww.flipkart.comcompanion-dragon-box-34-l-backpackpitmb87/black/5.jpeg'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00906',
+                prodName: "Bag6",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/6(httpswww.bagmasters.comcustom-printed-eclipse-computer-backpackquantity%3D1/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/6(httpswww.bagmasters.comcustom-printed-eclipse-computer-backpackquantity%3D1/1.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/6(httpswww.bagmasters.comcustom-printed-eclipse-computer-backpackquantity%3D1/2.jpeg'},
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/6(httpswww.bagmasters.comcustom-printed-eclipse-computer-backpackquantity%3D1/3.jpeg"},
+                    {img:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/6(httpswww.bagmasters.comcustom-printed-eclipse-computer-backpackquantity%3D1/4.jpeg"}
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00907',
+                prodName: "Bag7",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/7/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/7/1.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/7/2.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/7/3.jpeg'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00908',
+                prodName: "Bag8",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/61%2B80eCiIbL._SL1100_.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/61%2B80eCiIbL._SL1100_.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/61evPZp3JYL._SL1100_.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/61gaGbtR0aL._SL1100_.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/61nqfiiWNxL._SL1100_.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/61pEkqZL1fL._SL1100_.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/httpswww.promotionalwears.comlogo-printed-bagsexclusive-laptop-bagstrendy-stylis.jpg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/8(httpswww.amazon.inSPITZER-Inches-Polyester-Laptop-BackpackdpB07QG2WFQQ/laptop-backpack-extra-img-red-750x750.jpg'} 
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00909',
+                prodName: "Bag9",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/9(httpswww.flipkart.comjacob-blue34-waterproof-backpackpitmab51d6f0f714fpid%3DBAGFVHPHKVBB69AX%26lid%3DLSTBAGFVHPHKVBB69AXWTH6UG%26marketplace%3DFLIPKART%26fm%3DproductRec/1.jpeg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/9(httpswww.flipkart.comjacob-blue34-waterproof-backpackpitmab51d6f0f714fpid%3DBAGFVHPHKVBB69AX%26lid%3DLSTBAGFVHPHKVBB69AXWTH6UG%26marketplace%3DFLIPKART%26fm%3DproductRec/1.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/9(httpswww.flipkart.comjacob-blue34-waterproof-backpackpitmab51d6f0f714fpid%3DBAGFVHPHKVBB69AX%26lid%3DLSTBAGFVHPHKVBB69AXWTH6UG%26marketplace%3DFLIPKART%26fm%3DproductRec/2.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/9(httpswww.flipkart.comjacob-blue34-waterproof-backpackpitmab51d6f0f714fpid%3DBAGFVHPHKVBB69AX%26lid%3DLSTBAGFVHPHKVBB69AXWTH6UG%26marketplace%3DFLIPKART%26fm%3DproductRec/3.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/9(httpswww.flipkart.comjacob-blue34-waterproof-backpackpitmab51d6f0f714fpid%3DBAGFVHPHKVBB69AX%26lid%3DLSTBAGFVHPHKVBB69AXWTH6UG%26marketplace%3DFLIPKART%26fm%3DproductRec/4.jpeg'} ,
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/9(httpswww.flipkart.comjacob-blue34-waterproof-backpackpitmab51d6f0f714fpid%3DBAGFVHPHKVBB69AX%26lid%3DLSTBAGFVHPHKVBB69AXWTH6UG%26marketplace%3DFLIPKART%26fm%3DproductRec/5.jpeg'} ,
+                    
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display – Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            
+        ],
+        img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/bags%20new%20images/1httpswww.flipkart.comhp-most-popular-college-office-27-l-laptop-backpackpitmd1979f39ed41apid%3DBKPFYY7FAXHPPZNY%26lid%3DLSTBKPFYY7FAXHPPZNYTEGNZY%26marketplace%3DFLIP/1.jpeg',
+    },
 ];
 
 

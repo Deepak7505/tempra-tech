@@ -313,4 +313,34 @@ export const arrayOfProductIDs = [
         id:'006017',
         prodcutDetails: categories[5].prodcutList3[11],
     },
+
+    {
+        id:'00901',
+        prodcutDetails: categories[8].prodcutList[0],
+    },{
+        id:'00902',
+        prodcutDetails: categories[8].prodcutList[1],
+    },{
+        id:'00903',
+        prodcutDetails: categories[8].prodcutList[2],
+    },{
+        id:'00904',
+        prodcutDetails: categories[8].prodcutList[3],
+    },{
+        id:'00905',
+        prodcutDetails: categories[8].prodcutList[4],
+    },{
+        id:'00906',
+        prodcutDetails: categories[8].prodcutList[5],
+    },{
+        id:'00907',
+        prodcutDetails: categories[8].prodcutList[6],
+    },{
+        id:'00908',
+        prodcutDetails: categories[8].prodcutList[7],
+    },
+    {
+        id:'00909',
+        prodcutDetails: categories[8].prodcutList[8],
+    }
  ];
