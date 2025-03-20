@@ -22,10 +22,11 @@ const ImageZoom = ({ src, alt }) => {
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
     >
+      {/* w-[38rem] h-[34rem] */}
       <img
         src={src}
         alt={alt}
-        className=" w-[38rem] h-[34rem] transition-transform rounded-xl duration-200 cursor-zoom-in"
+        className="w-[38rem] h-[34rem] object-contain transition-transform rounded-xl duration-200 cursor-zoom-in"
         style={{
           transform: zoom ? `scale(1.5)`: 'scale(1) ',
           transformOrigin: `${position.x}% ${position.y}%`,
