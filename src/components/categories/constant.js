@@ -897,6 +897,177 @@ export const categories = [
             }
             
         ],
+        prodcutList3 : [
+            {
+                prodId: '00606',
+                prodName: "Plastic Clip Board1",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/1/513.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/1/513.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/1/515.png'},
+                    
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00607',
+                prodName: "Plastic Clip Board2",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/10/544.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/10/544.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/10/542.png'},
+                    
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00608',
+                prodName: "Plastic Clip Board3",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/2/519.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/2/519.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/2/521.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '00609',
+                prodName: "Plastic Clip Board4",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/10/542.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/10/542.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/10/544.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006010',
+                prodName: "Plastic Clip Board5",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/3/523.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/3/523.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/3/524.jpg'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006011',
+                prodName: "Plastic Clip Board6",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/4/517.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/4/517.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/4/526.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/4/528.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006012',
+                prodName: "Plastic Clip Board7",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/5/530.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/5/530.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/5/532.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006013',
+                prodName: "Plastic Clip Board8",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/6/549.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/6/549.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/6/551.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006014',
+                prodName: "Plastic Clip Board9",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/7/545.jpg",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/7/545.jpg'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/7/547.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006015',
+                prodName: "Plastic Clip Board10",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/8/540.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/8/540.png'}
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006016',
+                prodName: "Plastic Clip Board11",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/9/534.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/9/534.png'},
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/9/536.png'},
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            },
+            {
+                prodId: '006017',
+                prodName: "Plastic Clip Board12",
+                prodDetails: "Temperature Bottle – Smart & Stylish Hydration...",
+                cardImage:"https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/11/557.png",
+                allProductImages: [
+                    {img:'https://raw.githubusercontent.com/Deepak7505/myimages/refs/heads/main/plastic%20clip%20board/11/557.png'}
+                ],
+                totalDiscription:"The Temperature Bottle is a sleek, insulated smart bottle designed to keep your beverages at the perfect temperature for hours. Featuring a built-in LED temperature display, this bottle allows you to check the temperature of your drink with a simple touch—no more unexpected hot or cold surprises!",
+                arrayOfHeighlight:["LED Temperature Display: Smart touch-sensitive screen shows real-time liquid temperature.", "Double-Wall Insulation – Keeps drinks hot for up to 6 hours and cold for up to 12 hours.", "Premium Stainless Steel – Made from 304 food-grade stainless steel, ensuring durability and safety.", "Leak-Proof & BPA-Free – Secure, spill-resistant lid with eco-friendly, non-toxic materials.", "Sleek & Lightweight – Modern design, easy to carry for work, travel, gym, or office use.", "Custom Branding"],
+                minimumOrderquantity:100
+                
+            }
+        ],
         img:'https://img.freepik.com/premium-photo/wooden-clipboard-with-blank-a4-paper-mockup-template-isolated-light-grey-background_942243-3386.jpg',
     },
     {

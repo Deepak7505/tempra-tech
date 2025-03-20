@@ -268,5 +268,49 @@ export const arrayOfProductIDs = [
     {
         id:'00605',
         prodcutDetails: categories[5].productList2[3],
-    }
+    },
+    {
+        id:'00605',
+        prodcutDetails: categories[5].productList2[3],
+    },
+
+
+    {
+        id:'00606',
+        prodcutDetails: categories[5].prodcutList3[0],
+    },
+    {
+        id:'00607',
+        prodcutDetails: categories[5].prodcutList3[1],
+    },{
+        id:'00608',
+        prodcutDetails: categories[5].prodcutList3[2],
+    },{
+        id:'00609',
+        prodcutDetails: categories[5].prodcutList3[3],
+    },{
+        id:'006010',
+        prodcutDetails: categories[5].prodcutList3[4],
+    },{
+        id:'006011',
+        prodcutDetails: categories[5].prodcutList3[5],
+    },{
+        id:'006012',
+        prodcutDetails: categories[5].prodcutList3[6],
+    },{
+        id:'006013',
+        prodcutDetails: categories[5].prodcutList3[7],
+    },{
+        id:'006014',
+        prodcutDetails: categories[5].prodcutList3[8],
+    },{
+        id:'006015',
+        prodcutDetails: categories[5].prodcutList3[9],
+    },{
+        id:'006016',
+        prodcutDetails: categories[5].prodcutList3[10],
+    },{
+        id:'006017',
+        prodcutDetails: categories[5].prodcutList3[11],
+    },
  ];

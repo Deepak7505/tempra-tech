@@ -104,7 +104,7 @@ export const subCategories = {
     {
       name: "Plastic Clip Board",
       id:"plastic-clip-board",
-      ProductList: categories[5].prodcutList,
+      ProductList: categories[5].prodcutList3,
     },
     {
       name: "Acrylic Clip Board",
