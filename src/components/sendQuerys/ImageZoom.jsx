@@ -13,11 +13,11 @@ const ImageZoom = ({ src, alt }) => {
     const y = ((e.clientY - rect.top) / rect.height) * 100;
     setPosition({ x, y });
   };
-  // gap-6 p-6 border  bg-white
+  // gap-6 p-6 border w-[40rem] h-[36rem] bg-white w-[38rem] h-[34rem]
   return (
     <div
       ref={containerRef}
-      className="relative overflow-hidden w-[40rem] h-[36rem] bg-white p-4  border rounded-xl shadow-md"
+      className="relative overflow-hidden w-max h-max bg-white p-4  border rounded-xl shadow-md"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
@@ -26,7 +26,7 @@ const ImageZoom = ({ src, alt }) => {
       <img
         src={src}
         alt={alt}
-        className="w-[38rem] h-[34rem] object-contain transition-transform rounded-xl duration-200 cursor-zoom-in"
+        className="w-full h-full object-contain transition-transform rounded-xl duration-200 cursor-zoom-in"
         style={{
           transform: zoom ? `scale(1.5)`: 'scale(1) ',
           transformOrigin: `${position.x}% ${position.y}%`,
